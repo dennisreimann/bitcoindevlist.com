@@ -95,6 +95,14 @@ module.exports = {
       donate: "https://donate.nicolas-dorier.com/",
       avatar: "https://avatars1.githubusercontent.com/u/3020646?s=400&u=256d78207f88d303d61b62060a309657276cf6cb&v=4",
       description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
+    },
+    {
+      name: "Leo Wandersleb",
+      github: "Giszmo",
+      twitter: "LeoWandersleb",
+      donate: "https://walletscrutiny.com/donate/",
+      avatar: "https://avatars2.githubusercontent.com/u/96378?s=400&u=53a7ba63f5d4ad621885339630292f59ed91eafe&v=4",
+      description: "Founder and maintainer of WalletScrutiny.com, a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds."
     }
   ]
 }
