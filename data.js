@@ -88,5 +88,13 @@ module.exports = {
       avatar: "https://avatars2.githubusercontent.com/u/30862925?s=400&u=6e901281f8e1c7b73922b99d40526f8fc8c0e9cc&v=4",
       description: "Working full time for JungleLab, BTCPayServer, & maintaining BTCPayJungle"
     }
+	{
+      name: "Nicolas Dorier",
+      github: "NicolasDorier",
+      twitter: "NicolasDorier",
+      donate: "https://donate.nicolas-dorier.com/",
+      avatar: "https://avatars1.githubusercontent.com/u/3020646?s=400&u=256d78207f88d303d61b62060a309657276cf6cb&v=4",
+      description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
+    }
   ]
 }
