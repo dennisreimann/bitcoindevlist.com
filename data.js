@@ -50,7 +50,7 @@ module.exports = {
     },
     {
       name: "Kukks",
-      github:https://utxos.org/sponsors/ "MrKukks",
+      github: "MrKukks",
       twitter: "MrKukks",
       donate: "https://btc.donate.kukks.org/",
       avatar: "https://avatars2.githubusercontent.com/u/1818366?s=400&u=c3db16109eea21ab3bfc626ea0d6146d5a69bd83&v=4",
