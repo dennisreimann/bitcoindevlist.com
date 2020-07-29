@@ -95,6 +95,14 @@ module.exports = {
       donate: "https://donate.nicolas-dorier.com/",
       avatar: "https://avatars1.githubusercontent.com/u/3020646?s=400&u=256d78207f88d303d61b62060a309657276cf6cb&v=4",
       description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
+    },
+    {
+       name: "Steve Schellbach",
+      github: "Coinward",
+      twitter: "Coinward",
+      donate: "https://github.com/sponsors/coinward",
+      avatar: "https://pbs.twimg.com/profile_images/1284940049579012096/PpoNyvPp_400x400.jpg",
+      description: "Focused on mobile wallet development and Bitcoin native services that can scale to billions of users."
     }
   ]
 }
