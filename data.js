@@ -12,7 +12,7 @@ module.exports = {
       name: "Sjors Provoost",
       github: "Sjors",
       twitter: "provoost",
-      donate: "https://utxos.org/sponsors/",
+      donate: "https://github.com/sponsors/Sjors",
       avatar: "https://pbs.twimg.com/profile_images/1287690446068645888/sSIsTu3R_400x400.jpg",
       description: "I've been contributing to Bitcoin Core on a part-time basis since mid 2017. Most of my time is spent on reviewing and testing work by others, but I also created my own pull requests. Bitcoin ACKs provides a nice overview of my activity on the repo."
     },
@@ -50,7 +50,7 @@ module.exports = {
     },
     {
       name: "Kukks",
-      github: "MrKukks",
+      github:https://utxos.org/sponsors/ "MrKukks",
       twitter: "MrKukks",
       donate: "https://btc.donate.kukks.org/",
       avatar: "https://avatars2.githubusercontent.com/u/1818366?s=400&u=c3db16109eea21ab3bfc626ea0d6146d5a69bd83&v=4",
