@@ -1,5 +1,7 @@
-- const title = 'Bitcoin Donations'
-- const description = 'Fund your favorite Bitcoin contributors'
+- const title = 'Bitcoin Donation Portal'
+- const description = 'Support bitcoin developers so they can focus on building our future'
+- const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * i); const temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; }; return arr }
+- const donatees = shuffle(siteData.donatees) // randomize order
 
 <!DOCTYPE html>
 html(lang="en")
@@ -21,21 +23,53 @@ html(lang="en")
   body
     header.header
       .wrap
-        include ./bitcoin.svg
-        h1= title
-        h2= description
+        .inner
+          img.logo(src="./bitcoin.svg")
+          div
+            h1= title
+            h2= description
     main.main
       .wrap
         ul.donatees
-          each d in siteData.donatees
+          each d in donatees
             li
               img.avatar(src=d.avatar alt=d.name)
-              h3= d.name
+              .top
+                h3.name= d.name
+                if d.twitter
+                  a.twitter(href=`https://twitter.com/${d.twitter}`) Twitter
+                if d.github
+                  a.github(href=`https://github.com/${d.github}`) GitHub
+              if d.donate
+                a.cta(href=d.donate)= `Donate to ${d.name}`
               if d.description
                 p.description= d.description
-              //- if d.twitter
-              //-   a(href=`https://twitter.com/${d.twitter}`) Twitter
-              //- if d.github
-              //-   a(href=`https://github.com/${d.github}`) GitHub
-              if d.donate
-                a.cta(href=d.donate) Donate
+          script.
+            // randomize order
+            function shuffle (arr) {
+              for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * i)
+                const temp = arr[i]
+                arr[i] = arr[j]
+                arr[j] = temp
+              }
+              return arr
+            }
+            const donatees = Array.from(document.querySelectorAll('.donatees li'))
+            document.querySelector('.donatees').replaceChildren(...shuffle(donatees))
+      footer.footer
+        .wrap
+          p
+            | Brought to you by
+            = " "
+            a(href="https://twitter.com/matt_odell") Matt
+            = " and "
+            a(href="https://twitter.com/dennisreimann") Dennis
+            = "."
+          p
+            | Contribute on
+            = " "
+            a(href="https://github.com/dennisreimann/bitcoin-donations") GitHub
+            = " or "
+            a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") add yourself to the list
+            = "."
