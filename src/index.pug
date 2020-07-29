@@ -1,0 +1,41 @@
+- const title = 'Bitcoin Donations'
+- const description = 'Fund your favorite Bitcoin contributors'
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    meta(name="keywords" content="Bitcoin,Contributors,Donations,Funding,Lightning Network")
+    meta(name="description" content=description)
+    meta(property="twitter:card" content="summary")
+    meta(property="twitter:title" content=title)
+    meta(property="twitter:description" content=description)
+    link(rel="apple-touch-icon" sizes="180x180" href="/bitcoin.svg")
+    link(rel="icon" type="image/png" sizes="32x32" href="/bitcoin.svg")
+    link(rel="icon" type="image/png" sizes="16x16" href="/bitcoin.svg")
+    link(rel="stylesheet" href="/index.css")
+    link(rel="manifest" href="/site.webmanifest")
+    title= title
+  body
+    header.header
+      .wrap
+        include ./bitcoin.svg
+        h1= title
+        h2= description
+    main.main
+      .wrap
+        ul.donatees
+          each d in siteData.donatees
+            li
+              img.avatar(src=d.avatar alt=d.name)
+              h3= d.name
+              if d.description
+                p.description= d.description
+              //- if d.twitter
+              //-   a(href=`https://twitter.com/${d.twitter}`) Twitter
+              //- if d.github
+              //-   a(href=`https://github.com/${d.github}`) GitHub
+              if d.donate
+                a.cta(href=d.donate) Donate
