@@ -27,6 +27,8 @@ jobs:
         npm run prod
         # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
         touch dist/.nojekyll
+        # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
+        echo bitcoindevlist.com > dist/CNAME
       env:
         CI: true
     - name: GitHub Pages Deploy
