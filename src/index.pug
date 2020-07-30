@@ -64,8 +64,10 @@ html(lang="en")
               }
               return arr
             }
-            const donatees = Array.from(document.querySelectorAll('.donatees li'))
-            document.querySelector('.donatees').replaceChildren(...shuffle(donatees))
+            const list = document.querySelector('.donatees')
+            const donatees = Array.from(list.querySelectorAll('li'))
+            list.innerHTML = ""
+            shuffle(donatees).forEach(li => list.appendChild(li))
       footer.footer
         .wrap
           p
