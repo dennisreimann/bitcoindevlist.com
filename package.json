@@ -19,7 +19,9 @@
     "build:styles": "postcss src/index.css --output dist/index.css",
     "optimize": "npm-run-all -p optimize:*",
     "optimize:styles": "csso dist/index.css --output dist/index.css",
-    "prod": "npm-run-all build optimize"
+    "prod": "npm-run-all build optimize",
+    "lint": "prettier --check '**/*.js'",
+    "lint:fix": "prettier --write ."
   },
   "devDependencies": {
     "acorn": "7.3.1",
@@ -36,6 +38,7 @@
     "postcss-custom-properties": "9.1.1",
     "postcss-media-variables": "2.0.1",
     "postcss-nesting": "7.0.1",
+    "prettier": "2.0.5",
     "pug-cli": "1.0.0-alpha6"
   }
 }

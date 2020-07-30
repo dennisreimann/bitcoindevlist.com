@@ -17,26 +17,26 @@ jobs:
         node-version: [14]
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install
-      run: npm ci
-    - name: Build
-      run: npm run prod
-    - name: Predeploy
-      if: success() && github.ref == 'refs/heads/master'
-      run: |
-        # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
-        touch dist/.nojekyll
-        # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
-        echo bitcoindevlist.com > dist/CNAME
-    - name: Deploy
-      if: success() && github.ref == 'refs/heads/master'
-      uses: maxheld83/ghpages@v0.2.1
-      env:
-        BUILD_DIR: dist/
-        GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install
+        run: npm ci
+      - name: Build
+        run: npm run prod
+      - name: Predeploy
+        if: success() && github.ref == 'refs/heads/master'
+        run: |
+          # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+          touch dist/.nojekyll
+          # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
+          echo bitcoindevlist.com > dist/CNAME
+      - name: Deploy
+        if: success() && github.ref == 'refs/heads/master'
+        uses: maxheld83/ghpages@v0.2.1
+        env:
+          BUILD_DIR: dist/
+          GH_PAT: ${{ secrets.GH_PAT }}

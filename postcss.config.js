@@ -8,6 +8,6 @@ module.exports = {
     require('postcss-custom-media'),
     require('postcss-custom-properties'),
     require('postcss-calc'),
-    mediaVariables
-  ]
+    mediaVariables,
+  ],
 }

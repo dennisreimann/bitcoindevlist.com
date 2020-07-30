@@ -3,5 +3,5 @@ const renderMarkdown = require('./markdown')
 
 module.exports = {
   siteData: require('./data'),
-  renderMarkdown
+  renderMarkdown,
 }
