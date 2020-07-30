@@ -22,12 +22,12 @@
     "prod": "npm-run-all build optimize"
   },
   "devDependencies": {
-    "acorn": "7.1.1",
-    "autoprefixer": "9.7.6",
-    "browser-sync": "2.26.7",
+    "acorn": "7.3.1",
+    "autoprefixer": "9.8.5",
+    "browser-sync": "2.26.12",
     "csso-cli": "3.0.0",
     "jstransformer-markdown-it": "2.1.0",
-    "markdown-it": "10.0.0",
+    "markdown-it": "11.0.0",
     "npm-run-all": "4.1.5",
     "onchange": "7.0.2",
     "postcss-calc": "7.0.2",
