@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
@@ -11,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12]
+        node-version: [14]
 
     steps:
     - name: Checkout
@@ -23,15 +26,16 @@ jobs:
     - name: Install
       run: npm ci
     - name: Build
+      run: npm run prod
+    - name: Predeploy
+      if: success() && github.ref == 'refs/heads/master'
       run: |
-        npm run prod
         # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
         touch dist/.nojekyll
         # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
         echo bitcoindevlist.com > dist/CNAME
-      env:
-        CI: true
-    - name: GitHub Pages Deploy
+    - name: Deploy
+      if: success() && github.ref == 'refs/heads/master'
       uses: maxheld83/ghpages@v0.2.1
       env:
         BUILD_DIR: dist/
