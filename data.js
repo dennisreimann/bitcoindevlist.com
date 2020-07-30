@@ -54,7 +54,8 @@ module.exports = {
       twitter: "MrKukks",
       donate: "https://btc.donate.kukks.org/",
       avatar: "https://avatars2.githubusercontent.com/u/1818366?s=160",
-      description: "I work full-time on [BTCPay Server](https://btcpayserver.org), an open-source, self-hosted bitcoin payment processor that allows individuals and companies become self-sovereign."
+      description: "I work full-time on [BTCPay Server](https://btcpayserver.org), an open-source, self-hosted bitcoin payment processor that allows individuals and companies become self-sovereign.",
+      lightning: true
     },
     {
       name: "Luke Childs",
@@ -78,7 +79,8 @@ module.exports = {
       twitter: "DennisReimann",
       donate: "https://d11n.net/donate.html",
       avatar: "https://avatars1.githubusercontent.com/u/886?s=160",
-      description: "Improving the UX/UI of Bitcoin-related projects. Currently working full-time on [BTCPay Server](https://btcpayserver.org) – an open-source, self-hosted payment processor for Bitcoin."
+      description: "Improving the UX/UI of Bitcoin-related projects. Currently working full-time on [BTCPay Server](https://btcpayserver.org) – an open-source, self-hosted payment processor for Bitcoin.",
+      lightning: true
     },
     {
       name: "Eskyee",
@@ -86,7 +88,8 @@ module.exports = {
       twitter: "Esky33junglist",
       donate: "https://btcpayjungle.com/apps/iDPaGRfAvo8by73jMpZF83VMQQu/pos",
       avatar: "https://avatars2.githubusercontent.com/u/30862925?s=160",
-      description: "Working full time for JungleLab, BTCPayServer, & maintaining [BTCPayJungle](https://btcpayjungle.com/)."
+      description: "Working full time for JungleLab, BTCPayServer, & maintaining [BTCPayJungle](https://btcpayjungle.com/).",
+      lightning: true
     },
     {
       name: "Nicolas Dorier",
@@ -94,7 +97,8 @@ module.exports = {
       twitter: "NicolasDorier",
       donate: "https://donate.nicolas-dorier.com/",
       avatar: "https://avatars1.githubusercontent.com/u/3020646?s=160",
-      description: "NBitcoin and [BTCPay Server](https://btcpayserver.org) maintainer, Bitcoin and C# makes me happy."
+      description: "NBitcoin and [BTCPay Server](https://btcpayserver.org) maintainer, Bitcoin and C# makes me happy.",
+      lightning: true
     },
     {
       name: "Steve Schellbach",
@@ -110,7 +114,8 @@ module.exports = {
       twitter: "LeoWandersleb",
       donate: "https://walletscrutiny.com/donate/",
       avatar: "https://avatars2.githubusercontent.com/u/96378?s=160",
-      description: "Founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds."
+      description: "Founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds.",
+      lightning: true
     },
     {
       name: "Fontaine",

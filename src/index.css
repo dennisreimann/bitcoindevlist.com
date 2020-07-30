@@ -299,6 +299,13 @@ img:-moz-loading {
   }
 }
 
+.donatees .cta .ln {
+  margin-left: var(--space-xs);
+  filter: brightness(100%) contrast(100);
+  position: relative;
+  top: 1px;
+}
+
 .donatees .description {
   text-align: left;
   margin-bottom: 0;

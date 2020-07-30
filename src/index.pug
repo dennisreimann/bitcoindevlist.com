@@ -50,7 +50,10 @@ html(lang="en")
                 if d.github
                   a.github(href=`https://github.com/${d.github}`) GitHub
               if d.donate
-                a.cta(href=d.donate)= `Donate to ${d.name}`
+                a.cta(href=d.donate)
+                  = `Donate to ${d.name.split(' ')[0]}`
+                  if d.lightning
+                    span.ln= "⚡️"
               if d.description
                 .description!= renderMarkdown(d.description)
           script.
