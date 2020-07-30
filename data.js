@@ -165,5 +165,14 @@ module.exports = {
         'Creator of the [Lightning PoS](https://pos.sparkpay.pt/). Founder and maintainer of [Sparkpay.pt](https://blog.sparkpay.pt/), a project aimed at promoting Bitcoin and LN on Portugal. Also been creating a few, hopefully interesting, small LAPPs to get people to use LN.',
       lightning: true,
     },
+    {
+      name: 'Matthew Nelson',
+      github: '05nelsonm',
+      twitter: '_05nelsonm',
+      donate: 'https://donate.matthewnelson.io',
+      avatar: 'https://avatars2.githubusercontent.com/u/44778092?s=400&u=25b259a96942a698bd9489944360478eaaf51a75&v=4',
+      description:
+        'AndroidDev building on and maintaining [TorOnionProxyLibrary-Android](https://topl-android.matthewnelson.io); An Android Library for developers to easily embed Tor into their Android Applications. Checkout my other Projects [here](https://matthewnelson.io)',
+    },
   ],
 }
