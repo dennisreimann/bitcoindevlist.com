@@ -154,5 +154,16 @@ module.exports = {
       description:
         'Founder of the [Bitcoin Developer Network](https://bitcoindev.network/), a community-driven project for educating the next generation of Bitcoin developers.',
     },
+    {
+      name: 'Tiago Vasconcelos',
+      github: 'talvasconcelos',
+      twitter: 'talvasconcelos',
+      donate: 'https://tippin.me/@talvasconcelos',
+      avatar:
+        'https://avatars3.githubusercontent.com/u/12083186?s=460&u=3f056cd1b5d10c9457bb57223efe072fe594c01d&v=4',
+      description:
+        'Creator of the [Lightning PoS](https://pos.sparkpay.pt/). Founder and maintainer of [Sparkpay.pt](https://blog.sparkpay.pt/), a project aimed at promoting Bitcoin and LN on Portugal. Also been creating a few, hopefully interesting, small LAPPs to get people to use LN.',
+      lightning: true,
+    },
   ],
 }
