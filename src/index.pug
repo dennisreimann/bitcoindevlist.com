@@ -31,13 +31,16 @@ html(lang="en")
             h2= description
     main.main
       .wrap
-        p
-          | This website lists people working on Bitcoin and related projects.
-          | The goal is to increase the visibility of contributors to the space that are accepting donations.
-          | If you are currently working on a bitcoin related open source project, submit a PR to
-          = " "
-          a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") get yourself added
-          | .
+        .intro
+          p
+            | This website lists people working on Bitcoin and related projects.
+            | The goal is to increase the visibility of contributors to the space that are accepting donations.
+            | If you are currently working on a bitcoin related open source project, submit a PR to
+            = " "
+            a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") get yourself added
+            | .
+          p
+            | Being listed on this site should not be considered an endorsement. The order individuals are shown is randomized every visit
         ul.donatees
           each d in donatees
             li

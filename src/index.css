@@ -227,7 +227,7 @@ img:-moz-loading {
   margin-bottom: var(--space-xl);
 }
 
-.main p {
+.intro {
   max-width: 31em;
   margin: 0 auto var(--space-xxl);
 }
@@ -306,7 +306,7 @@ img:-moz-loading {
   top: 1px;
 }
 
-.donatees .description {
+.donatees .description p {
   text-align: left;
   margin-bottom: 0;
 }
