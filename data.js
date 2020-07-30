@@ -165,5 +165,16 @@ module.exports = {
         'Creator of the [Lightning PoS](https://pos.sparkpay.pt/). Founder and maintainer of [Sparkpay.pt](https://blog.sparkpay.pt/), a project aimed at promoting Bitcoin and LN on Portugal. Also been creating a few, hopefully interesting, small LAPPs to get people to use LN.',
       lightning: true,
     },
+    {
+      name: 'Umar Bolatov',
+      github: 'bolatovumar',
+      twitter: 'ubolator',
+      donate: 'https://donate.umar-bolatov.com',
+      avatar:
+        'https://avatars1.githubusercontent.com/u/1934678?s=460&u=d20022339ee7f9632dd9063d36759d7ff8f36197&v=4',
+      description:
+        'Regular contributor to BTCPay Server and Zap LN wallet',
+      lightning: true,
+    },
   ],
 }
