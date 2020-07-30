@@ -232,7 +232,7 @@ img:-moz-loading {
 .main {
   flex: 1;
   padding-top: var(--space-l);
-  margin-bottom: var(--space-xl);
+  /* margin-bottom: var(--space-xl); */
 }
 
 .intro {
