@@ -97,6 +97,14 @@ module.exports = {
       description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
     },
     {
+      name: "Leo Wandersleb",
+      github: "Giszmo",
+      twitter: "LeoWandersleb",
+      donate: "https://walletscrutiny.com/donate/",
+      avatar: "https://avatars2.githubusercontent.com/u/96378?s=400&u=53a7ba63f5d4ad621885339630292f59ed91eafe&v=4",
+      description: "Founder and maintainer of WalletScrutiny.com, a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds."
+    },
+    {
       name: "Fontaine",
       github: "Fonta1n3",
       twitter: "Fonta1n3",
