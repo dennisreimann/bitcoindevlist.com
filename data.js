@@ -95,6 +95,14 @@ module.exports = {
       donate: "https://donate.nicolas-dorier.com/",
       avatar: "https://avatars1.githubusercontent.com/u/3020646?s=400&u=256d78207f88d303d61b62060a309657276cf6cb&v=4",
       description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
+    },
+    {
+      name: "Fontaine",
+      github: "Fonta1n3",
+      twitter: "Fonta1n3",
+      donate: "https://github.com/sponsors/Fonta1n3",
+      avatar: "https://avatars1.githubusercontent.com/u/30832395?v=4",
+      description: "All things Bitcoin/Tor. Fully Noded creator."
     }
   ]
 }
