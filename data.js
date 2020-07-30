@@ -103,6 +103,14 @@ module.exports = {
       donate: "https://walletscrutiny.com/donate/",
       avatar: "https://avatars2.githubusercontent.com/u/96378?s=400&u=53a7ba63f5d4ad621885339630292f59ed91eafe&v=4",
       description: "Founder and maintainer of WalletScrutiny.com, a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds."
+    },
+    {
+      name: "Fontaine",
+      github: "Fonta1n3",
+      twitter: "Fonta1n3",
+      donate: "https://github.com/sponsors/Fonta1n3",
+      avatar: "https://avatars1.githubusercontent.com/u/30832395?v=4",
+      description: "All things Bitcoin/Tor. Fully Noded creator."
     }
   ]
 }
