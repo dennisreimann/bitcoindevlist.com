@@ -97,6 +97,14 @@ module.exports = {
       description: "NBitcoin and BTCPay Server maintainer, Bitcoin and C# makes me happy."
     },
     {
+      name: "Steve Schellbach",
+      github: "Coinward",
+      twitter: "Coinward",
+      donate: "https://github.com/sponsors/coinward",
+      avatar: "https://pbs.twimg.com/profile_images/1284940049579012096/PpoNyvPp_400x400.jpg",
+      description: "Focused on mobile wallet development and Bitcoin native services that can scale to billions of users."
+    },
+    {
       name: "Leo Wandersleb",
       github: "Giszmo",
       twitter: "LeoWandersleb",
