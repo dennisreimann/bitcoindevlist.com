@@ -14,7 +14,7 @@
     "start:styles": "npm run build:styles -- --watch",
     "start:serve": "browser-sync start --config browser-sync.config.js --watch",
     "build": "npm-run-all clean -p build:* -s optimize",
-    "build:copy": "mkdir -p dist && cp src/*.svg dist",
+    "build:copy": "mkdir -p dist && cp src/*.png src/*.svg dist",
     "build:pages": "pug src -O pug.config.js --out dist",
     "build:styles": "postcss src/index.css --output dist/index.css",
     "optimize": "npm-run-all -p optimize:*",
