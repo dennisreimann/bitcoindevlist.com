@@ -73,19 +73,19 @@ html(lang="en")
             const donatees = Array.from(list.querySelectorAll('li'))
             list.innerHTML = ""
             shuffle(donatees).forEach(li => list.appendChild(li))
-      footer.footer
-        .wrap
-          p
-            | Brought to you by
-            = " "
-            a(href="https://twitter.com/matt_odell") Matt
-            = " and "
-            a(href="https://twitter.com/dennisreimann") Dennis
-            = "."
-          p
-            | Contribute on
-            = " "
-            a(href="https://github.com/dennisreimann/bitcoin-donations") GitHub
-            = " or "
-            a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") add yourself to the list
-            = "."
+    footer.footer
+      .wrap
+        p
+          | Brought to you by
+          = " "
+          a(href="https://twitter.com/matt_odell") Matt
+          = " and "
+          a(href="https://twitter.com/dennisreimann") Dennis
+          = "."
+        p
+          | Contribute on
+          = " "
+          a(href="https://github.com/dennisreimann/bitcoin-donations") GitHub
+          = " or "
+          a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") add yourself to the list
+          = "."
