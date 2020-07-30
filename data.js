@@ -120,5 +120,14 @@ module.exports = {
       avatar: "https://avatars1.githubusercontent.com/u/30832395?s=160",
       description: "All things Bitcoin/Tor. [Fully Noded](https://fullynoded.app/) creator."
     },
+    {
+      name: "Gr0kchain",
+      github: "gr0kchain",
+      twitter: "BitcoinDevNet",
+      website: "https://bitcoindev.network",
+      donate: "https://bitcoindev.network/author/gr0kchain/",
+      avatar: "https://avatars3.githubusercontent.com/u/7654306?s=460&u=af13f1bd07717cdbc45e19ebf25ebe55bc092d39&v=4",
+      description: "Founder of the [Bitcoin Developer Network](https://bitcoindev.network/), a community-driven project for educating the next generation of Bitcoin developers."
+    },
   ]
 }
