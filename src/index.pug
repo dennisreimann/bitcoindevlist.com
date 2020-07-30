@@ -30,6 +30,14 @@ html(lang="en")
             h2= description
     main.main
       .wrap
+        p
+          | This website lists people working on Bitcoin and related projects.
+          | We want to increase the visibility of contributors to the space that are accepting donations.
+          | Help funding their work and provide support for the Bitcoin ecosystem.
+          | If you are involved in the space yourself you can
+          = " "
+          a(href="https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js") get yourself added
+          | .
         ul.donatees
           each d in donatees
             li

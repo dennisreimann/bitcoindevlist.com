@@ -223,8 +223,13 @@ img:-moz-loading {
 
 .main {
   flex: 1;
-  padding-top: var(--space-xl);
+  padding-top: var(--space-l);
   margin-bottom: var(--space-xl);
+}
+
+.main p {
+  max-width: 36em;
+  margin: 0 auto var(--space-xxl);
 }
 
 .donatees {
