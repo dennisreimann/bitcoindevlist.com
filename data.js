@@ -165,5 +165,16 @@ module.exports = {
         'Creator of the [Lightning PoS](https://pos.sparkpay.pt/). Founder and maintainer of [Sparkpay.pt](https://blog.sparkpay.pt/), a project aimed at promoting Bitcoin and LN on Portugal. Also been creating a few, hopefully interesting, small LAPPs to get people to use LN.',
       lightning: true,
     },
+        {
+      name: 'Riccardo Masutti',
+      github: 'riccardomasutti',
+      twitter: 'riccardomasutti',
+      donate: 'https://bitcoinsicurezzaprivacy.it/apps/cW6qkgjCD87TFFCBAHC3agGAC4t/pos',
+      avatar:
+        'https://avatars3.githubusercontent.com/u/46527252?s=460&u=7966576f4ea890c10e7844e229ded7b1c5f4d9a2&v=4',
+      description:
+        'I contribute to various Bitcoin projects, in this last period specifically to Wasabi Wallet and BTCPay Server. I also spend most of my time educating on Bitcoin, security and privacy through speeches, meetups and workshops.',
+      lightning: true,
+    },
   ],
 }
