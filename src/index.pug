@@ -51,7 +51,7 @@ html(lang="en")
               if d.donate
                 a.cta(href=d.donate)= `Donate to ${d.name}`
               if d.description
-                p.description= d.description
+                .description!= renderMarkdown(d.description)
           script.
             // randomize order
             function shuffle (arr) {
