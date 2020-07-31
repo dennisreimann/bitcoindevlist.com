@@ -1,6 +1,16 @@
 module.exports = {
   donatees: [
     {
+      name: 'Blockchain Commons',
+      github: 'BlockchainCommons',
+      twitter: 'blockchaincomns',
+      donate: 'https://github.com/sponsors/BlockchainCommons',
+      avatar:
+        'https://avatars3.githubusercontent.com/u/38142380?s=160', 
+      description:
+        "Founded by & staffed by a number of Bitcoin developers, Blockchain Commons is proudly a 'not-for-profit' social benefit corporation committed to open source & open development. Supports a number of open source bitcoin projects including the [GordianWallet](https://github.com/BlockchainCommons/GordianWallet-iOS), the macOS Bitcoin standup tool [GordianNode](https://github.com/BlockchainCommons/GordianNode-macOS), the DIY offline crypgraphic tool [LetheKit](https://github.com/BlockchainCommons/bc-lethekit), free [Learning Bitcoin from the Command Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line), the free [#SmartCustody](https://www.smartcustody.com/2019-09-17-Blockchain-Commons-Releases-First-SmartCustody-Book/) book on protecting your digital assets, and many more Bitcoin and blockchain open source infrastructure projects at [Github](https://github.com/BlockchainCommons)",
+    },
+    {
       name: 'Jeremy Rubin',
       github: 'JeremyRubin',
       twitter: 'JeremyRubin',
