@@ -198,6 +198,16 @@ module.exports = {
       lightning: true,
     },
     {
+      name: 'Chimezie Chuta',
+      github: 'chuta',
+      twitter: 'mezie16',
+      donate: 'https://tallyco.in/s/3bcxrj',
+      avatar:
+        'https://avatars2.githubusercontent.com/u/3313429?s=400&u=62ade3dfc7ef63be6b69e0285cacb3b2f7034a4f&v=4',
+      description: 'Developer of SpaceBox -a solar powered full Bitcoin Lightning Node run-away kit.',
+      lightning: true,
+    },
+    {
       name: 'Kristaps Kaupe',
       github: 'kristapsk',
       twitter: 'kristapsk',
