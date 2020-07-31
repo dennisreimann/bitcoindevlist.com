@@ -206,7 +206,16 @@ module.exports = {
         'https://avatars1.githubusercontent.com/u/4500994?s=400&u=e0cefccba9b3767b33073631a7644fde0e0748e3',
       description:
         'Maintainer of [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver), contributing to [Bitcoin Core](https://github.com/bitcoin/bitcoin), [c-lightning](https://github.com/ElementsProject/lightning) and other projects.',
-      lightning: true
-    }
+      lightning: true,
+    },
+    {
+      name: 'Matthew Nelson',
+      github: '05nelsonm',
+      twitter: '_05nelsonm',
+      donate: 'https://donate.matthewnelson.io',
+      avatar: 'https://avatars2.githubusercontent.com/u/44778092?s=400&u=25b259a96942a698bd9489944360478eaaf51a75&v=4',
+      description:
+        'AndroidDev building on and maintaining [TorOnionProxyLibrary-Android](https://topl-android.matthewnelson.io); An Android Library for developers to easily embed Tor into their Android Applications. Checkout my other Projects [here](https://matthewnelson.io).',
+    },
   ],
 }
