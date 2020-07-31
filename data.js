@@ -176,5 +176,26 @@ module.exports = {
         'Working on open-source bitcoin stuff since \'13, volunteer at the [@BitcoinEmbassy](https://twitter.com/bitcoinembassy) and wannabe cypherpunk. Some of my work includes [Bitcoin Wallet Tracker](https://github.com/shesek/bwt), [Minsc](https://min.sc), [Spark Lightning Wallet](https://github.com/shesek/spark-wallet), [Lightning Charge](https://github.com/ElementsProject/lightning-charge) (+[a bunch of lapps](https://coinjournal.net/news/blockstream-lightning-charge-lapps/)) and [Esplora](https://github.com/blockstream/esplora).',
       lightning: true,
     },
+    {
+      name: 'Umar Bolatov',
+      github: 'bolatovumar',
+      twitter: 'ubolator',
+      donate: 'https://donate.umar-bolatov.com',
+      avatar:
+        'https://avatars1.githubusercontent.com/u/1934678?s=460&u=d20022339ee7f9632dd9063d36759d7ff8f36197&v=4',
+      description: 'Regular contributor to BTCPay Server and Zap LN wallet',
+      lightning: true,
+    },
+    {
+      name: 'Kristaps Kaupe',
+      github: 'kristapsk',
+      twitter: 'kristapsk',
+      donate: 'https://tippin.me/@kristapsk',
+      avatar:
+        'https://avatars1.githubusercontent.com/u/4500994?s=400&u=e0cefccba9b3767b33073631a7644fde0e0748e3',
+      description:
+        'Maintainer of [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver), contributing to [Bitcoin Core](https://github.com/bitcoin/bitcoin), [c-lightning](https://github.com/ElementsProject/lightning) and other projects.',
+      lightning: true
+    }
   ],
 }
