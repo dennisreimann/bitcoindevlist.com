@@ -227,5 +227,14 @@ module.exports = {
       description:
         'AndroidDev building on and maintaining [TorOnionProxyLibrary-Android](https://topl-android.matthewnelson.io); An Android Library for developers to easily embed Tor into their Android Applications. Checkout my other Projects [here](https://matthewnelson.io).',
     },
+    {
+    name: "Christopher Allen",
+      github: "ChristopherA",
+      twitter: "ChristopherA",
+      donate: "https://github.com/sponsors/ChristopherA",
+      avatar: "https://avatars3.githubusercontent.com/u/69103?s=160",
+      description:
+        "Lead author of the free [Learning Bitcoin from the Command Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line), the free [&#35;SmartCustody](https://www.smartcustody.com/2019-09-17-Blockchain-Commons-Releases-First-SmartCustody-Book/) book on protecting your digital assets, and the SSL/TLS and Decentralized Identifier (DID) international standards. Executive Director/Principal Architect of [Blockchain Commons](https://www.BlockchainCommons.com) and maintainer of many open source and blockchain infrastucture projects.",
+    },
   ],
 }
