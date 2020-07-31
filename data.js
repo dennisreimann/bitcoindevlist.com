@@ -48,7 +48,7 @@ module.exports = {
     },
     {
       name: 'Luke Dashjr',
-      github: 'LukeDashjr',
+      github: 'luke-jr',
       twitter: 'LukeDashjr',
       donate: 'https://github.com/sponsors/luke-jr',
       avatar:
