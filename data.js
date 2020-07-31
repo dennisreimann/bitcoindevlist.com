@@ -236,6 +236,15 @@ module.exports = {
       description:
         "Lead author of the free [Learning Bitcoin from the Command Line](https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line), the free [&#35;SmartCustody](https://www.smartcustody.com/2019-09-17-Blockchain-Commons-Releases-First-SmartCustody-Book/) book on protecting your digital assets, and the SSL/TLS and Decentralized Identifier (DID) international standards. Executive Director/Principal Architect of [Blockchain Commons](https://www.BlockchainCommons.com) and maintainer of many open source and blockchain infrastucture projects.",
     },
+        {
+    name: "Sergi Delgado",
+      github: "sr-gi",
+      twitter: "sr_gi",
+      donate: "https://github.com/sponsors/sr-gi",
+      avatar: "https://avatars3.githubusercontent.com/u/6665628",
+      description:
+        "Building The Eye of Satoshi [@talaia-labs](https://talaia.watch/).",
+    },
   ],
 };
 
