@@ -48,7 +48,7 @@ module.exports = {
     },
     {
       name: 'Luke Dashjr',
-      github: 'LukeDashjr',
+      github: 'luke-jr',
       twitter: 'LukeDashjr',
       donate: 'https://github.com/sponsors/luke-jr',
       avatar:
@@ -166,13 +166,56 @@ module.exports = {
       lightning: true,
     },
     {
+      name: 'Riccardo Masutti',
+      github: 'riccardomasutti',
+      twitter: 'riccardomasutti',
+      donate: 'https://bitcoinsicurezzaprivacy.it/apps/cW6qkgjCD87TFFCBAHC3agGAC4t/pos',
+      avatar:
+        'https://avatars3.githubusercontent.com/u/46527252?s=460&u=7966576f4ea890c10e7844e229ded7b1c5f4d9a2&v=4',
+      description:
+        'I contribute to various Bitcoin projects, in this last period specifically to Wasabi Wallet and BTCPay Server. I also spend most of my time educating on Bitcoin, security and privacy through speeches, meetups and workshops.',
+      lightning: true,
+    },
+    {
+      name: 'Nadav Ivgi',
+      github: 'shesek',
+      twitter: 'shesek',
+      donate: 'https://btcpay.shesek.info/',
+      avatar:
+        'https://pbs.twimg.com/profile_images/1118630798972862464/84EvmAcc_400x400.png',
+      description:
+        'Working on open-source bitcoin stuff since \'13, volunteer at the [@BitcoinEmbassy](https://twitter.com/bitcoinembassy) and wannabe cypherpunk. Some of my work includes [Bitcoin Wallet Tracker](https://github.com/shesek/bwt), [Minsc](https://min.sc), [Spark Lightning Wallet](https://github.com/shesek/spark-wallet), [Lightning Charge](https://github.com/ElementsProject/lightning-charge) (+[a bunch of lapps](https://coinjournal.net/news/blockstream-lightning-charge-lapps/)) and [Esplora](https://github.com/blockstream/esplora).',
+      lightning: true,
+    },
+    {
+      name: 'Umar Bolatov',
+      github: 'bolatovumar',
+      twitter: 'ubolator',
+      donate: 'https://donate.umar-bolatov.com',
+      avatar:
+        'https://avatars1.githubusercontent.com/u/1934678?s=460&u=d20022339ee7f9632dd9063d36759d7ff8f36197&v=4',
+      description: 'Regular contributor to BTCPay Server and Zap LN wallet',
+      lightning: true,
+    },
+    {
+      name: 'Kristaps Kaupe',
+      github: 'kristapsk',
+      twitter: 'kristapsk',
+      donate: 'https://tippin.me/@kristapsk',
+      avatar:
+        'https://avatars1.githubusercontent.com/u/4500994?s=400&u=e0cefccba9b3767b33073631a7644fde0e0748e3',
+      description:
+        'Maintainer of [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver), contributing to [Bitcoin Core](https://github.com/bitcoin/bitcoin), [c-lightning](https://github.com/ElementsProject/lightning) and other projects.',
+      lightning: true,
+    },
+    {
       name: 'Matthew Nelson',
       github: '05nelsonm',
       twitter: '_05nelsonm',
       donate: 'https://donate.matthewnelson.io',
       avatar: 'https://avatars2.githubusercontent.com/u/44778092?s=400&u=25b259a96942a698bd9489944360478eaaf51a75&v=4',
       description:
-        'AndroidDev building on and maintaining [TorOnionProxyLibrary-Android](https://topl-android.matthewnelson.io); An Android Library for developers to easily embed Tor into their Android Applications. Checkout my other Projects [here](https://matthewnelson.io)',
+        'AndroidDev building on and maintaining [TorOnionProxyLibrary-Android](https://topl-android.matthewnelson.io); An Android Library for developers to easily embed Tor into their Android Applications. Checkout my other Projects [here](https://matthewnelson.io).',
     },
   ],
 }
