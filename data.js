@@ -245,6 +245,13 @@ module.exports = {
       description:
         "Building The Eye of Satoshi [@talaia-labs](https://talaia.watch/).",
     },
+    {
+      name: "Eugene",
+      github: "Crypt-iQ",
+      donate: "https://crypt-iq.github.io/fuzz.html",
+      description:
+        "Bitcoin fuzzing enthusiast, I review and run the Bitcoin Core fuzz PRs. I only need compute time."
+    }
   ],
 };
 
