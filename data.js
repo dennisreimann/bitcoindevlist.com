@@ -4,7 +4,7 @@ module.exports = {
       name: "Jeremy Rubin",
       github: "JeremyRubin",
       twitter: "JeremyRubin",
-      donate: "https://utxos.org/sponsors/",
+      donate: "https://github.com/sponsors/JeremyRubin",
       avatar: "https://avatars2.githubusercontent.com/u/886523?s=160",
       description:
         "Hi! I'm Jeremy Rubin, and I work on making Bitcoin excellent! My focuses are on not just improving the quality of the code, but also on adding new features that make Bitcoin more useful.",
