@@ -251,6 +251,14 @@ module.exports = {
       donate: "https://crypt-iq.github.io/fuzz.html",
       description:
         "Bitcoin fuzzing enthusiast, I review and run the Bitcoin Core fuzz PRs. I only need compute time."
+    },
+    {
+      name: "wiz",
+      github: "wiz",
+      donate: "https://wiz.biz/donate",
+      avatar: "https://wiz.biz/wiz512.png",
+      description:
+        "I work on various projects for the Bitcoin community, see [wiz.biz](https://wiz.biz/) for more details."
     }
   ],
 };
