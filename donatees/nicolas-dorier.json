@@ -5,5 +5,8 @@
   "donate": "https://donate.nicolas-dorier.com/",
   "avatar": "https://avatars1.githubusercontent.com/u/3020646?s=160",
   "description": "NBitcoin and [BTCPay Server](https://btcpayserver.org) maintainer, Bitcoin and C# makes me happy.",
-  "lightning": true
+  "lightning": true,
+  "tags": [
+    "BTCPay Server"
+  ]
 }

@@ -1,0 +1,14 @@
+extends /template.pug
+
+block vars
+  - const title = feature.name
+  - const keywords = feature.tags
+  - const description = `Support ${feature.name} via a bitcoin donation.`
+
+block main
+  +donatee(feature).feature
+
+  hr
+
+  h2 Other donatees
+  +donatees(other)

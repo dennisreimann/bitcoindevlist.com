@@ -18,6 +18,3 @@ const data = {
 const json = JSON.stringify(data, null, 2)
 
 writeFileSync(dst, json)
-
-// eslint-disable-next-line no-console
-console.log('✅  Generated site-data.json')
