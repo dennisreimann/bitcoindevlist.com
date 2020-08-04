@@ -348,15 +348,17 @@ img:-moz-loading {
     & a {
       font-size: var(--font-size-xs);
       display: inline-block;
+      margin-top: var(--space-s);
       margin-right: var(--space-s);
       color: var(--color-white);
-      background: var(--color-neutral-50);
+      background: var(--color-neutral-80);
+      border: 1px solid var(--color-neutral-70);
       border-radius: var(--space-xs);
       padding: var(--space-xxs) var(--space-s);
 
       &:hover,
       &:focus {
-        background: var(--color-neutral-60);
+        background: var(--color-neutral-70);
         text-decoration: none;
       }
     }

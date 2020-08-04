@@ -4,5 +4,8 @@
   "twitter": "fanquake",
   "donate": "https://github.com/sponsors/fanquake",
   "avatar": "https://avatars0.githubusercontent.com/u/863730?s=160",
-  "description": "I work full time as a Bitcoin Core maintainer."
+  "description": "I work full time as a Bitcoin Core maintainer.",
+  "tags": [
+    "Bitcoin Core"
+  ]
 }
