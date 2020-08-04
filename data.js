@@ -259,6 +259,15 @@ module.exports = {
       avatar: "https://wiz.biz/wiz512.png",
       description:
         "I work on various projects for the Bitcoin community, see [wiz.biz](https://wiz.biz/) for more details."
+    },
+    {
+      name: "cloudhead",
+      github: "cloudhead",
+      twitter: "cloudhead",
+      donate: "https://cloudhead.io/donate",
+      avatar: "https://cloudhead.io/images/avatar.png",
+      description:
+        "I'm developing [nakamoto](https://github.com/cloudhead/nakamoto), a new high-assurance Bitcoin light client in Rust."
     }
   ],
 };
