@@ -8,6 +8,6 @@ If you are currently working on a bitcoin related open source project, submit a 
 
 ## Adding yourself to the lists
 
-If you are currently working on a bitcoin related open source project, submit a PR to [get yourself added](https://github.com/dennisreimann/bitcoin-donations/edit/master/data.js).
+If you are currently working on a bitcoin related open source project, submit a PR to [get yourself added](https://github.com/dennisreimann/bitcoin-donations/edit/master/donatees).
 Just append your block of data to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
