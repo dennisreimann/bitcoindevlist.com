@@ -4,4 +4,8 @@
   "donate": "https://wiz.biz/donate",
   "avatar": "https://wiz.biz/wiz512.png",
   "description": "I work on various projects for the Bitcoin community, see [wiz.biz](https://wiz.biz/) for more details."
+  "tags": [
+    "Bisq",
+    "Mempool.Space"
+  ]
 }
