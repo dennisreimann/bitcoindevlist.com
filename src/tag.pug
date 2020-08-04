@@ -1,0 +1,15 @@
+extends /template.pug
+
+block vars
+  - const title = `Working on ${tag}`
+  - const keywords = tag
+  - const description = `Support bitcoin developers working on ${tag}.`
+
+block main
+  h2= title
+  +donatees(feature)
+
+  hr
+
+  h2 Other donatees
+  +donatees(other)

@@ -8,26 +8,32 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "clean": "rm -rf dist",
-    "start": "npm-run-all clean build:copy -p start:*",
-    "start:pages": "npm run build:pages -- --watch --pretty",
+    "clean": "rm -rf site-data.json dist/*",
+    "init": "npm-run-all -p build:data build:copy",
+    "start": "npm-run-all clean init -p start:*",
+    "start:donatees": "onchange -k 'donatees/*' 'tasks/generate_site_data.js' -- npm run build:data",
+    "start:data": "onchange -k 'site-data.json' 'pug.config.js' 'markdown.js' -- npm run build:pages",
+    "start:pages": "onchange -i -k '{includes,src}/**/*.pug' 'tasks/generate_pages.js' -- npm run build:pages",
     "start:styles": "npm run build:styles -- --watch",
     "start:serve": "browser-sync start --config browser-sync.config.js --watch",
-    "build": "npm-run-all clean -p build:* -s optimize",
+    "build": "npm-run-all clean init -p build:* -s optimize",
     "build:copy": "mkdir -p dist && cp src/*.png src/*.svg dist",
-    "build:pages": "pug src -O pug.config.js --out dist",
+    "build:data": "node tasks/generate_site_data.js",
+    "build:pages": "node tasks/generate_pages.js",
     "build:styles": "postcss src/index.css --output dist/index.css",
     "optimize": "npm-run-all -p optimize:*",
     "optimize:styles": "csso dist/index.css --output dist/index.css",
-    "prod": "npm-run-all build optimize"
+    "prod": "npm-run-all build optimize",
+    "lint": "prettier --check '**/*.js'",
+    "lint:fix": "prettier --write ."
   },
   "devDependencies": {
-    "acorn": "7.1.1",
-    "autoprefixer": "9.7.6",
-    "browser-sync": "2.26.7",
+    "acorn": "7.3.1",
+    "autoprefixer": "9.8.5",
+    "browser-sync": "2.26.12",
     "csso-cli": "3.0.0",
     "jstransformer-markdown-it": "2.1.0",
-    "markdown-it": "10.0.0",
+    "markdown-it": "11.0.0",
     "npm-run-all": "4.1.5",
     "onchange": "7.0.2",
     "postcss-calc": "7.0.2",
@@ -36,6 +42,7 @@
     "postcss-custom-properties": "9.1.1",
     "postcss-media-variables": "2.0.1",
     "postcss-nesting": "7.0.1",
+    "prettier": "2.0.5",
     "pug-cli": "1.0.0-alpha6"
   }
 }

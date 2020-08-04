@@ -1,7 +1,11 @@
 // initialize markdown rendering
 const renderMarkdown = require('./markdown')
 
+const slugify = str => str.toLowerCase().replace(/\W/, '-')
+
 module.exports = {
-  siteData: require('./data'),
-  renderMarkdown
+  basedir: './includes',
+  siteData: require('./site-data'),
+  slugify,
+  renderMarkdown,
 }

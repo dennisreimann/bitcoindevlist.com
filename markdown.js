@@ -3,7 +3,7 @@ const transformer = require('jstransformer')
 const { _tr: mdTransformer } = transformer(require('jstransformer-markdown-it'))
 
 const config = {
-  typographer: true
+  typographer: true,
 }
 
 // monkey-patch render function to pass custom options
