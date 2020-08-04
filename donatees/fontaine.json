@@ -4,5 +4,9 @@
   "twitter": "Fonta1n3",
   "donate": "https://github.com/sponsors/Fonta1n3",
   "avatar": "https://avatars1.githubusercontent.com/u/30832395?s=160",
-  "description": "All things Bitcoin/Tor. [Fully Noded](https://fullynoded.app/) creator."
+  "description": "All things Bitcoin/Tor. [Fully Noded](https://fullynoded.app/) creator.",
+  "tags": [
+    "Fully Noded",
+    "Blockchain Commons"
+    ]
 }
