@@ -7,7 +7,7 @@
   "description": "Founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds.",
   "lightning": true,
   "tags": [
-    "Mycelium Wallet",
+    "Security",
     "WalletScrutiny"
     ]
 }
