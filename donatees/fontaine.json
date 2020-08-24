@@ -2,9 +2,10 @@
   "name": "Fontaine",
   "github": "Fonta1n3",
   "twitter": "Fonta1n3",
-  "donate": "https://github.com/sponsors/Fonta1n3",
+  "donate": "http://56uo4htoxdt2tgh6zui5v2q7c4ax43dd3fwueiurgqdw7lpunn2cikqd.onion:5599/donation",
   "avatar": "https://avatars1.githubusercontent.com/u/30832395?s=160",
   "description": "All things Bitcoin/Tor. [Fully Noded](https://fullynoded.app/) creator.",
+  "lightning": true,
   "tags": [
     "Fully Noded",
     "Blockchain Commons"
