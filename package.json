@@ -1,8 +1,8 @@
 {
   "version": "0.1.0",
-  "name": "bitcoin-donations",
-  "description": "Fund your favorite bitcoin contributors.",
-  "repository": "git@github.com:dennisreimann/bitcoin-donations.git",
+  "name": "bitcoindevlist.com",
+  "description": "Support bitcoin developers so they can focus on building our future.",
+  "repository": "git@github.com:dennisreimann/bitcoindevlist.com.git",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
@@ -23,26 +23,23 @@
     "build:styles": "postcss src/index.css --output dist/index.css",
     "optimize": "npm-run-all -p optimize:*",
     "optimize:styles": "csso dist/index.css --output dist/index.css",
-    "prod": "npm-run-all build optimize",
-    "lint": "prettier --check '**/*.js'",
-    "lint:fix": "prettier --write ."
+    "prod": "npm-run-all build optimize"
   },
   "devDependencies": {
-    "acorn": "7.3.1",
-    "autoprefixer": "9.8.5",
+    "autoprefixer": "10.0.0",
     "browser-sync": "2.26.12",
     "csso-cli": "3.0.0",
     "jstransformer-markdown-it": "2.1.0",
-    "markdown-it": "11.0.0",
+    "markdown-it": "11.0.1",
     "npm-run-all": "4.1.5",
     "onchange": "7.0.2",
-    "postcss-calc": "7.0.2",
-    "postcss-cli": "7.1.1",
+    "postcss": "8.0.9",
+    "postcss-calc": "7.0.4",
+    "postcss-cli": "8.0.0",
     "postcss-custom-media": "7.0.8",
-    "postcss-custom-properties": "9.1.1",
+    "postcss-custom-properties": "10.0.0",
     "postcss-media-variables": "2.0.1",
     "postcss-nesting": "7.0.1",
-    "prettier": "2.0.5",
     "pug-cli": "1.0.0-alpha6"
   }
 }
