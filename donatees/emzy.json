@@ -7,7 +7,7 @@
   "description": "I contribute to Bitcoin by running nodes like Bitcoin, Lighting, an Electrum server and nodes for the Bisq network.",
   "tags": [
     "Bisq",
-    "Bitcoin Core"
+    "Bitcoin Core",
     "Lightning"
   ]
 }
