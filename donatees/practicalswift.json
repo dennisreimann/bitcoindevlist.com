@@ -1,0 +1,12 @@
+{
+   "avatar": "https://avatars0.githubusercontent.com/u/7826565?s=460",
+   "github": "practicalswift",
+   "donate": "https://github.com/practicalswift",
+   "tags": [
+      "Bitcoin Core",
+      "Security"
+   ],
+   "twitter": "practicalswift",
+   "description": "Independent Bitcoin Core contributor focusing on security. Found CVE-2017-18350, CVE-2018-20586, CVE-2019-18936 and some fixed but yet to be announced vulns. Plans to help Bitcoin stay secure for decades to come by a.) killing vulns (auditing/fuzzing), b.) killing bug classes (mitigations), c.) improving security processes (tooling/automation) and d.) raising C++ secure coding awareness (education/review). Loyal to Bitcoiners *only*: not to corporations or cliques. Trying to stay 100% independent. See GitHub profile for HODL-only donation address :)",
+   "name": "practicalswift"
+}
