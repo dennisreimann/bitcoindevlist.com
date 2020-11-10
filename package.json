@@ -17,7 +17,7 @@
     "start:styles": "npm run build:styles -- --watch",
     "start:serve": "browser-sync start --config browser-sync.config.js --watch",
     "build": "npm-run-all clean init -p build:* -s optimize",
-    "build:copy": "mkdir -p dist && cp src/*.png src/*.svg dist",
+    "build:copy": "mkdir -p dist && cp src/*.png src/*.svg static/* dist",
     "build:data": "node tasks/generate_site_data.js",
     "build:pages": "node tasks/generate_pages.js",
     "build:styles": "postcss src/index.css --output dist/index.css",
