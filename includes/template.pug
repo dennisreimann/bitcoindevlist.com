@@ -18,9 +18,9 @@ mixin donatee(d)
       h3.name
         a(href=`/${d.id}/`)= d.name
       if d.twitter
-        a.twitter(href=`https://twitter.com/${d.twitter}`, target="_blank") Twitter
+        a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
       if d.github
-        a.github(href=`https://github.com/${d.github}`, target="_blank") GitHub
+        a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
     if d.donate
       a.cta(href=d.donate)
         = `Donate to ${d.name.split(' ')[0]}`
