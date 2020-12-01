@@ -1,0 +1,27 @@
+extends /template.pug
+
+block vars
+  - const title = `Statistics`
+
+block main
+  h2= title
+
+  h3 Number of donatees
+  p= siteData.donatees.length
+
+  h3 Average description length
+  p= siteData.stats.averageDescriptionLength
+
+  h3 Longest descriptions
+  ol
+    each d in siteData.stats.descriptionLengths.slice(0, 10)
+      li
+        a(href=`/${d[0]}/`)= d[0]
+        = ` (${d[1]})`
+
+  h3 Tags usage
+  ol
+    each d in siteData.stats.tags
+      li
+        a(href=`/tag/${d[0]}/`)= d[0]
+        = ` (${d[1]})`

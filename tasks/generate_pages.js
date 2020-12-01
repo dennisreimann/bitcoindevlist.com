@@ -1,6 +1,6 @@
 const pug = require('pug')
-const { readFileSync, mkdirSync, writeFileSync } = require('fs')
-const { dirname, join, resolve } = require('path')
+const { mkdirSync, writeFileSync } = require('fs')
+const { dirname, resolve } = require('path')
 const { donatees } = require('../site-data.json')
 const config = require('../pug.config')
 
@@ -55,3 +55,6 @@ Object.values(byTag).forEach(({ slug, tag, donatees: feature }) => {
 
   renderPage('tag', `tag/${slug}/index`, data)
 })
+
+// stats
+renderPage('stats', 'stats')

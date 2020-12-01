@@ -166,8 +166,14 @@ ul {
   }
 }
 
+ol {
+  margin-left: var(--space-l);
+  margin-bottom: var(--space-l);
+}
+
 p,
-ul {
+ul,
+ol {
   & + h2 {
     margin-top: var(--space-xl);
   }

@@ -11,4 +11,9 @@ const { render: renderMd } = mdTransformer
 
 mdTransformer.render = str => renderMd(str, config)
 
-module.exports = mdTransformer.render
+const slugify = str => str.toLowerCase().replace(/\W/, '-')
+
+module.exports = {
+  slugify,
+  renderMarkdown: mdTransformer.render,
+}

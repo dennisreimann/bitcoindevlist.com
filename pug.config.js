@@ -1,7 +1,4 @@
-// initialize markdown rendering
-const renderMarkdown = require('./markdown')
-
-const slugify = str => str.toLowerCase().replace(/\W/, '-')
+const { slugify, renderMarkdown } = require('./helpers')
 
 module.exports = {
   basedir: './includes',
