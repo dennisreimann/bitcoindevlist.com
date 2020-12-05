@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "name": "nanodevlist.com",
   "description": "Support Nano developers so they can focus on building our future.",
-  "repository": "git@github.com:joohansson/nanodevlist.git",
+  "repository": "git@github.com:Joohansson/nanodevlist.git",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
