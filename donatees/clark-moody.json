@@ -1,9 +1,0 @@
-{
-  "name": "Clark Moody",
-  "github": "clarkmoody",
-  "twitter": "clarkmoody",
-  "donate": "https://bitcoin.clarkmoody.com/donate/",
-  "avatar": "https://avatars0.githubusercontent.com/u/1562417?s=460&v=4",
-  "description": "I run the [Clark Moody Bitcoin Dashboard](https://bitcoin.clarkmoody.com/dashboard/), which puts all the stats of the Bitcoin economy on a single screen. I'm also a member of the rust-bitcoin group and maintainer of the Rust [bech32](https://github.com/rust-bitcoin/rust-bech32/) codec library.",
-  "tags": ["Data", "Dashboard", "Rust", "bech32"]
-}

@@ -1,8 +1,9 @@
-- const siteTitle = 'Bitcoin Donation Portal'
-- const siteDescription = 'Support bitcoin developers so they can focus on building our future'
-- const siteKeywords = 'Bitcoin,Contributors,Donations,Funding,Lightning Network'
-- const repoUrl = 'https://github.com/dennisreimann/bitcoindevlist.com'
+- const siteTitle = 'Nano Donation Portal'
+- const siteDescription = 'Support Nano developers for building the payment future'
+- const siteKeywords = 'Nano,Contributors,Donations,Funding,Sponsor'
+- const repoUrl = 'https://github.com/Joohansson/nanodevlist'
 - const editUrl = `${repoUrl}/edit/master/donatees`
+- const nanoUrl = 'https://nano.org'
 - const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * i); const temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; }; return arr }
 
 block vars
@@ -21,11 +22,12 @@ mixin donatee(d)
         a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
       if d.github
         a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
-    if d.donate
-      a.cta(href=d.donate)
-        = `Donate to ${d.name.split(' ')[0]}`
-        if d.lightning
-          span.ln= "⚡️"
+    if d.nano_account
+      a.cta(href=`https://tools.nanos.cc/?tool=pay&address=${d.nano_account}&amount=&message=Donation to ${d.name.split(' ')[0]}`)
+        = `Give a Nano Donation`
+    if d.sponsor_link
+      a.cta(href=d.sponsor_link)
+        = `Sponsor ${d.name.split(' ')[0]}`
     if d.description
       .description!= renderMarkdown(d.description)
     if d.tags
@@ -49,10 +51,10 @@ html(lang="en")
     meta(property="twitter:card" content="summary")
     meta(property="twitter:title" content=pageTitle)
     meta(property="twitter:description" content=pageDescription)
-    meta(property="twitter:image" content="https://bitcoindevlist.com/card.png")
-    link(rel="apple-touch-icon" sizes="180x180" href="/bitcoin.svg")
-    link(rel="icon" type="image/png" sizes="32x32" href="/bitcoin.svg")
-    link(rel="icon" type="image/png" sizes="16x16" href="/bitcoin.svg")
+    meta(property="twitter:image" content="https://nanodevlist.com/card.png")
+    link(rel="apple-touch-icon" sizes="180x180" href="/favicon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="/favicon.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="/favicon.png")
     link(rel="stylesheet" href="/index.css")
     link(rel="manifest" href="/site.webmanifest")
     title= pageTitle
@@ -61,7 +63,7 @@ html(lang="en")
       .wrap
         .inner
           a(href="/")
-            img.logo(src="/bitcoin.svg")
+            img.logo(src="/nano.svg")
           div
             h1= siteTitle
             h2= siteDescription
@@ -69,14 +71,18 @@ html(lang="en")
       .wrap
         .intro
           p
-            | This website lists people working on Bitcoin and related projects.
-            | The goal is to increase the visibility of contributors to the space that are accepting donations.
-            | If you are currently working on a bitcoin related open source project, submit a PR to
+            | Below you find people working on the
             = " "
-            a(href=editUrl) get yourself added
+            a(href=nanoUrl) Nano protocol
+            = " "
+            | or related projects.
+            | The goal is to increase the visibility of developers accepting donations.
+            | If you are currently working on Nano related projects, submit a PR with your info
+            = " "
+            a(href=editUrl) as seen here
             | .
           p
-            | Being listed on this site should not be considered an endorsement. The order individuals are shown is randomized every visit.
+            | Being listed on this site should not be considered an endorsement. The list order is randomized every visit.
 
         block main
 
@@ -92,7 +98,11 @@ html(lang="en")
     footer.footer
       .wrap
         p
-          | Brought to you by
+          | Maintained by
+          = " "
+          a(href="https://github.com/joohansson") Json
+          = " | "
+          | Original from
           = " "
           a(href="https://twitter.com/matt_odell") Matt
           = " and "

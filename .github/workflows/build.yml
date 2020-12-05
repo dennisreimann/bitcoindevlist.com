@@ -33,7 +33,7 @@ jobs:
           # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
           touch dist/.nojekyll
           # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
-          echo devs.nanos.cc > dist/CNAME
+          echo nanodevlist.com > dist/CNAME
       - name: Deploy
         if: success() && github.ref == 'refs/heads/master'
         uses: maxheld83/ghpages@v0.2.1

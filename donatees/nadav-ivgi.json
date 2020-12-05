@@ -1,9 +1,0 @@
-{
-  "name": "Nadav Ivgi",
-  "github": "shesek",
-  "twitter": "shesek",
-  "donate": "https://btcpay.shesek.info/",
-  "avatar": "https://pbs.twimg.com/profile_images/1118630798972862464/84EvmAcc_400x400.png",
-  "description": "Working on open-source bitcoin stuff since '13, volunteer at the [@BitcoinEmbassy](https://twitter.com/bitcoinembassy) and wannabe cypherpunk. Some of my work includes [Bitcoin Wallet Tracker](https://github.com/shesek/bwt), [Minsc](https://min.sc), [Spark Lightning Wallet](https://github.com/shesek/spark-wallet), [Lightning Charge](https://github.com/ElementsProject/lightning-charge) (+[a bunch of lapps](https://coinjournal.net/news/blockstream-lightning-charge-lapps/)) and [Esplora](https://github.com/blockstream/esplora).",
-  "lightning": true
-}

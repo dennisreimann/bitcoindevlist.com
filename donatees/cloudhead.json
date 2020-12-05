@@ -1,8 +1,0 @@
-{
-  "name": "cloudhead",
-  "github": "cloudhead",
-  "twitter": "cloudhead",
-  "donate": "https://cloudhead.io/donate",
-  "avatar": "https://cloudhead.io/images/avatar.png",
-  "description": "I'm developing [nakamoto](https://github.com/cloudhead/nakamoto), a new high-assurance Bitcoin light client in Rust."
-}

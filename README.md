@@ -1,20 +1,24 @@
 # NANO Donation Portal
 
-## Support Nano developers so they can focus on building our future
+## Support Nano developers for building the payment future
 
-[The website](https://devs.nanos.cc/) lists people working on Nano and related projects.
-The goal is to increase the visibility of contributors to the space that are accepting donations.
-If you are currently working on a Nano related open source project, submit a PR to get yourself added!
+[The website](https://nanodevlist.com/) lists people working on the Nano protocol or related projects.
+The goal is to increase the visibility of developers accepting donations.
+If you are currently working on Nano related projects, submit a PR to get yourself added!
 
 ## Adding yourself to the lists
 
-If you are currently working on a Nano related open source project, submit a PR to [get yourself added](https://github.com/joohansson/nanodevlist/edit/master/donatees).
-Just append your block of data to the bottom, the list is shuffled on page load.
+If you are currently working on Nano related projects, submit a PR with your info [as seen here](https://github.com/joohansson/nanodevlist/edit/master/donatees).
+Just append your-name.json to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
+
+Name, description and nano_account is mandatory but you can leave any of the other fields blank. The sponsor_link can for example be a link to your Github sponsor page, Patreon or other means of Donation / Sponsorhip.
+
+Tags is used to filter participants on the site. Please compare with others first, or find inspiration on the [original site](https://bitcoindevlist.com/).
 
 ## Local build
 
-[Node.js](https://nodejs.org/en/) is a prerequisite, the dependencies are managed via npm.
+[Node.js](https://nodejs.org/en/) is a prerequisite, the dependencies are managed via npm. Linux is recommended but WSL under windows works too.
 Once you have cloned this repo, you can setup the packages:
 
 ```bash
@@ -27,4 +31,7 @@ Create a build and rebuild on file change:
 npm start
 ```
 
-This will bring up the dev server and pattern library on [localhost:3000](http://localhost:3000).
+This will bring up the dev server and pattern library on [localhost:3000](http://localhost:3000). Any changes you make will be updated instantly in the browser.
+
+
+Special thanks to the original project: https://github.com/dennisreimann/bitcoindevlist.com

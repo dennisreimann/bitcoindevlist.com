@@ -1,0 +1,22 @@
+{
+  "name": "Json",
+  "github": "joohansson",
+  "twitter": "nano_links",
+  "nano_account": "nano_1gur37mt5cawjg5844bmpg8upo4hbgnbbuwcerdobqoeny4ewoqshowfakfo",
+  "sponsor_link": "",
+  "avatar": "https://avatars2.githubusercontent.com/u/2406720?s=400&u=efe4a4e3d09090d3c3cb7c651c9985a2527de8fb&v=4",
+  "description": "Participating in various Nano project development since early 2018. Owner and maintainer of this site and [NanoLinks](https://nanolinks.info), [NanoTicker](https://nanoticker.info), [NanoHost](https://nanos.cc), [KeyTools](https://tools.nanos.cc), [NanoRPCProxy](https://api.nanos.cc), [UnrealNano](https://unreal.nanos.cc/), [NanoGift](https://nanogift.me), [NanoNodeGraphics](https://github.com/Joohansson/NanoNodeGraphics) and more. Part of the [Nault Wallet](https://nault.cc) dev team and maintaining the [Tix Wallet](https://tixwallet.cc/). Community manager of [Nano Reddit](https://www.reddit.com/r/nanocurrency) and [Nano Discord](https://chat.nano.org/). Also providing [help documentation](http://nanojson.medium.com/) and [videos](https://www.youtube.com/channel/UCwam3KyfHV1nnwtptoX2kfw/videos?view_as=subscriber).",
+  "tags": [
+    "Nault",
+    "Angular",
+    "JS",
+    "React",
+    "Python",
+    "UnrealEngine",
+    "Security",
+    "Documentation",
+    "Help",
+    "CommunityManager",
+    "Moderator"
+  ]
+}

@@ -13,8 +13,8 @@
   --color-neutral-90: #15202b;
   --color-neutral-95: #0d151e;
 
-  --color-accent: #f7931a;
-  --color-accent-highlight: #e87f00;
+  --color-accent: #4a90e2;
+  --color-accent-highlight: #3a71af;
 
   --space-xxs: 0.125rem;
   --space-xs: 0.25rem;
@@ -317,7 +317,7 @@ img:-moz-loading {
 
   & .cta {
     display: inline-block;
-    margin: var(--space-m) auto;
+    margin: var(--space-m) 0 0 auto;
     color: var(--color-white);
     background: var(--color-accent);
     transition-property: color, background;
@@ -326,6 +326,7 @@ img:-moz-loading {
     padding: var(--space-s) var(--space-m);
     font-size: var(--font-size-m);
     line-height: 1.2;
+    width: 100%;
 
     &:hover,
     &:focus {
@@ -344,6 +345,7 @@ img:-moz-loading {
 
   & .description p {
     text-align: left;
+    margin-top: var(--space-m);
     margin-bottom: 0;
   }
 

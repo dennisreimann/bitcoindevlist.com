@@ -1,9 +1,0 @@
-{
-  "name": "Eugene",
-  "github": "Crypt-iQ",
-  "donate": "https://crypt-iq.github.io/fuzz.html",
-  "description": "Bitcoin fuzzing enthusiast, I review and run the Bitcoin Core fuzz PRs. I only need compute time.",
-  "tags": [
-    "Bitcoin Core"
-  ]
-}

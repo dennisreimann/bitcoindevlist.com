@@ -1,8 +1,8 @@
 {
   "version": "0.1.0",
-  "name": "bitcoindevlist.com",
-  "description": "Support bitcoin developers so they can focus on building our future.",
-  "repository": "git@github.com:dennisreimann/bitcoindevlist.com.git",
+  "name": "nanodevlist.com",
+  "description": "Support Nano developers so they can focus on building our future.",
+  "repository": "git@github.com:joohansson/nanodevlist.git",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
