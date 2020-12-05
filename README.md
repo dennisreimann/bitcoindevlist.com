@@ -8,7 +8,7 @@ If you are currently working on a Nano related open source project, submit a PR 
 
 ## Adding yourself to the lists
 
-If you are currently working on a Nano related open source project, submit a PR to [get yourself added](https://github.com/joohansson/nanodevlist.com/edit/master/donatees).
+If you are currently working on a Nano related open source project, submit a PR to [get yourself added](https://github.com/joohansson/nanodevlist/edit/master/donatees).
 Just append your block of data to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
 
