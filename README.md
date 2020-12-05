@@ -1,4 +1,4 @@
-# NANO Donation Portal
+# NANO Donation Portal - NanoDevList.com
 
 ## Support Nano developers for building the payment future
 
