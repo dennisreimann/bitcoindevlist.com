@@ -12,7 +12,7 @@ If you are currently working on Nano related projects, submit a PR with your inf
 Just append your-name.json to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
 
-Name, description and nano_account is mandatory but you can leave any of the other fields blank. The sponsor_link can for example be a link to your Github sponsor page, Patreon or other means of Donation / Sponsorhip.
+Name, description and nano_account is mandatory but you can leave any of the other fields blank. The sponsor_link can for example be a link to your Github sponsor page, Patreon or other means of Donation / Sponsorhip. An example of such link: [https://github.com/sponsors/luke-jr](https://github.com/sponsors/luke-jr)
 
 Tags is used to filter participants on the site. Please compare with others first, or find inspiration on the [original site](https://bitcoindevlist.com/).
 
