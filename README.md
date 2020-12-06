@@ -1,6 +1,6 @@
 # NANO Donation Portal - NanoDevList.com
 
-## Support Nano developers for building the payment future
+## Support Nano developers for building the future of digital money
 
 [The website](https://nanodevlist.com/) lists people working on the Nano protocol or related projects.
 The goal is to increase the visibility of developers accepting donations.
