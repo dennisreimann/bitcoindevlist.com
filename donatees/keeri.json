@@ -1,0 +1,11 @@
+{
+  "name": "keeri",
+  "github": "keerifox",
+  "nano_account": "nano_1keeri8xfrfgbea9ipyhdcd5gyof6yapujjoezc45a3x6tctwjo9iz9tqdpg",
+  "avatar": "https://i.imgur.com/xMyqCk7.png",
+  "description": "Designed [Nault](https://nault.cc)'s slick sidebar with representative features that keep users informed and help make Nano network more secure and decentralized.\n\nIllustrates Nano's microtransaction capabilities in an indie game [Raesonic](https://raesonic.com) ([Reddit post](https://www.reddit.com/r/nanocurrency/comments/fb2itj/ive_implemented_nano_microtransactions_in_my/)), and a classic gamemode [JC2RP](https://earn-nano.com/jc2rp) ([see on network explorer](https://nanocrawler.cc/explorer/account/nano_1jcrp97qsqcnnmsqtdud5p6f6k7a95g6635149akj63fyybpt8sdyq6tyxsr/history)).\n\nCreated [Nano Infographics](https://imgur.com/a/tPaK9hp), a [magical banner ad graphic](https://i.imgur.com/skl9l3k.png) and [r/CryptoCurrency coin badges](https://imgur.com/a/IBZHDpE).",
+  "tags": [
+    "Nault",
+    "GameDev"
+  ]
+}
