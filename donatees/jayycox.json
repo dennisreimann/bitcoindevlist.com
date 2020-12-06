@@ -1,0 +1,16 @@
+{
+  "name": "Jayycox",
+  "github": "",
+  "twitter": "jamescoxon",
+  "nano_account": "nano_1xmy3ydxz8j35i4m9cmoo9yhjotj9bcicc61dfeaa67o58pnt4s95eaimb1b",
+  "sponsor_link": "",
+  "avatar": "https://secure.gravatar.com/avatar/cad0520d4506adea0cc8950b73902735?d=identicon",
+  "description": "[Personal Git](https://wvsensornet.xyz/git/jamescoxon) Involved in Nano since 2016, [early contributor](https://github.com/nanocurrency/nano-node/commits?author=jamescoxon) to the Nano Node. Main focus on developing services based on Nano. Co-developer of [DPoW](https://dpow.nanocenter.org/) (distributed PoW system), Lead developer for [NanoQuake](https://nanoquakejs.com), [Nano Xmas Tree](https://xmas.nanos.cc), TryNano Telegram Bot and the OpenMusicRadio Bot, also built the [NanoArcade Space Invaders Machine](https://medium.com/@jacoxon/introducing-nano-arcade-fusing-nano-with-space-invaders-e551069bdc1e), [Nano/Penny Exchange](https://medium.com/the-nano-center/change-old-to-new-penny-nano-exchanger-fbed0e0d609e) and the Disaster Nano Node. Previously built the Raiblocks Trade Bot (the first Raiblocks exchange) and helped build the early Jolt Wallet prototypes.",
+  "tags": [
+    "Python",
+    "C",
+    "Quake",
+    "Hardware",
+    "Education"
+  ]
+}
