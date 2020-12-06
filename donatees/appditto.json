@@ -1,0 +1,21 @@
+{
+  "name": "Appditto",
+  "github": "appditto",
+  "twitter": "appditto",
+  "nano_account": "nano_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd",
+  "sponsor_link": "",
+  "avatar": "https://appditto.com/icon.png",
+  "description": "We're a team of 2 building widely used Nano projects since 2017. Our work includes [Natrium](https://natrium.io), [The Nano Tip Bot](https://github.com/bbedward/graham_discord_bot), [Natricon](https://natricon.com), [Pippin](https://github.com/appditto/pippin_nano_wallet) and [Nano Dart](https://github.com/appditto/nanodart).",
+  "tags": [
+    "Natrium",
+    "Nano Tip Bot",
+    "Nano Dart",
+    "Pippin",
+    "Natricon",
+    "Flutter",
+    "Python",
+    "Javascript",
+    "Go",
+    "Vue"
+  ]
+}
