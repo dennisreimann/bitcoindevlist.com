@@ -1,10 +1,11 @@
 {
   "name": "Leo Wandersleb",
   "github": "Giszmo",
+  "gitlab": "Giszmo",
   "twitter": "LeoWandersleb",
   "donate": "https://walletscrutiny.com/donate/",
   "avatar": "https://avatars2.githubusercontent.com/u/96378?s=160",
-  "description": "Founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds. He is also the release manager of the Android Bitcoin Wallet [Mycelium](https://play.google.com/store/apps/details?id=com.mycelium.wallet).",
+  "description": "I'm the founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds. I'm also the release manager of the Android Bitcoin Wallet [Mycelium](https://play.google.com/store/apps/details?id=com.mycelium.wallet).",
   "lightning": true,
   "tags": [
     "Security",

@@ -21,6 +21,8 @@ mixin donatee(d)
         a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
       if d.github
         a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
+      if d.gitlab
+        a.gitlab(href=`https://gitlab.com/${d.gitlab}`) GitLab
     if d.donate
       a.cta(href=d.donate)
         = `Donate to ${d.name.split(' ')[0]}`
