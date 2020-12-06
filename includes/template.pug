@@ -4,6 +4,7 @@
 - const repoUrl = 'https://github.com/Joohansson/nanodevlist'
 - const editUrl = `${repoUrl}/edit/master/donatees`
 - const nanoUrl = 'https://nano.org'
+- const projectUrl = 'https://nanolinks.info'
 - const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * i); const temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; }; return arr }
 
 block vars
@@ -84,7 +85,10 @@ html(lang="en")
             = " "
             a(href=nanoUrl) Nano protocol
             = " "
-            | or related projects.
+            | or
+            = " "
+            a(href=projectUrl) related projects
+            | .
             | The goal is to increase the visibility of developers accepting donations.
             | If you are currently working on Nano related projects, submit a PR with your info
             = " "
