@@ -8,7 +8,7 @@ If you are currently working on Nano related projects, submit a PR to get yourse
 
 ## Adding yourself to the lists
 
-If you are currently working on Nano related projects, submit a PR with your info [as seen here](https://github.com/joohansson/nanodevlist/edit/master/donatees).
+If you are currently working on Nano related projects or actively contributing to the Nano eco-system, submit a PR with your info [as seen here](https://github.com/joohansson/nanodevlist/edit/master/donatees). Only running a Nano node will not qualify.
 Just append your-name.json to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
 
