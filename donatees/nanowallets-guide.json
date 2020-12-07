@@ -1,0 +1,19 @@
+{
+   "name": "nanowallets.guide",
+   "github": "nanowallets-guide",
+   "twitter": "nanowallets",
+   "nano_account": "nano_1zuksmn4e8tjw1ch8m8fbrwy5459bx8645o9euj699rs13qy6ysjhrewioey",
+   "sponsor_link": "",
+   "avatar": "https://avatars3.githubusercontent.com/u/60238220?s=400&u=e72f8319aef233b2a6627a348415d31b416ecd04&v=4",
+   "description": "Sole developer of [nanowallets.guide](https://nanowallets.guide) and node owner. Looking to make nano more accessible. For now by providing a good overview of all the wallets and their features that support nano.",
+   "tags": [
+      "Nano Dart",
+      "Pippin",
+      "Natricon",
+      "Flutter",
+      "Python",
+      "Javascript",
+      "Go",
+      "Vue"
+   ]
+}
