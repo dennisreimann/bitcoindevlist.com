@@ -27,7 +27,7 @@ mixin donatee(d)
       if d.github
         a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
     if d.nano_account
-      a.cta(href=`https://tools.nanos.cc/?tool=pay&address=${d.nano_account}&amount=&message=Donation to ${d.name.split(' ')[0]}`)
+      a.cta(href=`https://tools.nanos.cc/?tool=pay&address=${d.nano_account}&amount=&recipient=${d.name.split(' ')[0]}&message=Donation to ${d.name.split(' ')[0]}`)
         = `Give a Nano Donation`
     if d.sponsor_link
       a.cta(href=d.sponsor_link)
