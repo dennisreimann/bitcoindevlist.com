@@ -5,7 +5,7 @@
   "repository": "git@github.com:dennisreimann/bitcoindevlist.com.git",
   "license": "MIT",
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=14.0.0"
   },
   "scripts": {
     "clean": "rm -rf site-data.json dist/*",
@@ -27,15 +27,15 @@
     "prod": "npm-run-all build optimize sitemap"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.4",
+    "autoprefixer": "10.1.0",
     "browser-sync": "2.26.13",
     "csso-cli": "3.0.0",
     "glob": "7.1.6",
     "jstransformer-markdown-it": "2.1.0",
-    "markdown-it": "12.0.2",
+    "markdown-it": "12.0.3",
     "npm-run-all": "4.1.5",
     "onchange": "7.1.0",
-    "postcss": "8.1.10",
+    "postcss": "8.2.0",
     "postcss-calc": "7.0.5",
     "postcss-cli": "8.3.0",
     "postcss-custom-media": "7.0.8",
