@@ -22,7 +22,7 @@ mixin donatee(d)
       if d.github
         a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
       if d.gitlab
-        a.gitlab(href=`https://gitlab.com/${d.gitlab}`) GitLab
+        a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank") GitLab
     if d.donate
       a.cta(href=d.donate)
         = `Donate to ${d.name.split(' ')[0]}`
