@@ -12,7 +12,7 @@ block vars
 - const pageKeywords = keywords || siteKeywords
 
 mixin donatee(d)
-  .donatee&attributes(attributes)
+  .donatee(id=d.id)&attributes(attributes)
     img.avatar(src=d.avatar alt=d.name)
     .top
       h3.name
