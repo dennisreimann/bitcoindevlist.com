@@ -11,29 +11,35 @@ block vars
 - const pageDescription = description || siteDescription
 - const pageKeywords = keywords || siteKeywords
 
-mixin donatee(d)
+mixin donatee(d, trunc = true)
   .donatee(id=d.id)&attributes(attributes)
     img.avatar(src=d.avatar alt=d.name)
-    .top
-      h3.name
-        a(href=`/${d.id}/`)= d.name
-      if d.twitter
-        a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
-      if d.github
-        a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
-      if d.gitlab
-        a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank") GitLab
-    if d.donate
-      a.cta(href=d.donate)
-        = `Donate to ${d.name.split(' ')[0]}`
-        if d.lightning
-          span.ln= "⚡️"
-    if d.description
-      .description!= renderMarkdown(d.description)
-    if d.tags
-      .tags
-        each tag in d.tags
-          a.tag(href=`/tag/${slugify(tag)}`)= tag
+    h3.name
+      a(href=`/${d.id}/`)= d.name
+    .center
+      if d.description
+        .description
+          - const [desc, truncated] = trunc ? truncate(d.description, 26) : [d.description, false]
+          - const description = truncated ? `${desc} [[…&nbsp;more]](/${d.id}/)` : desc
+          != renderMarkdown(description)
+      if d.tags
+        .tags
+          each tag in d.tags
+            a.tag(href=`/tag/${slugify(tag)}`)= tag
+    if d.twitter || d.github || d.gitlab
+      .social
+        if d.twitter
+          a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
+        if d.gitlab
+          a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank") GitLab
+        else if d.github
+          a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
+    .foot
+      if d.donate
+        a.cta(href=d.donate)
+          = `Donate to ${d.name.split(' ')[0]}`
+          if d.lightning
+            span.ln= "⚡️"
 
 mixin donatees(list)
   ul.donatees&attributes(attributes)
