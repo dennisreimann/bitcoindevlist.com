@@ -107,14 +107,22 @@ h6,
 
 h1 {
   line-height: 1.1;
-  font-size: 2em;
+  font-size: var(--font-size-xxl);
+
+  @media (--up_to_M) {
+    font-size: var(--font-size-xl);
+  }
 }
 
 h2 {
   line-height: 1.1;
   padding-top: var(--space-s);
   margin-bottom: var(--space-m);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
+
+  @media (--up_to_M) {
+    font-size: 1.2rem;
+  }
 }
 
 h3 {
@@ -263,6 +271,10 @@ img {
   max-width: 31em;
   margin: 0 auto var(--space-xxl);
   color: var(--color-neutral-50);
+
+  @media (--up_to_M) {
+    font-size: var(--font-size-s);
+  }
 }
 
 .feature {
