@@ -15,7 +15,8 @@ mixin donatee(d, trunc = true)
   - const detailUrl = `/${d.id}/#${d.id}`
   .donatee(id=d.id)&attributes(attributes)
     .inner
-      img.avatar(src=(d.avatar || '/img/avatar.svg') alt=d.name)
+      a(href=detailUrl)
+        img.avatar(src=(d.avatar || '/img/avatar.svg') alt=d.name)
       h3.name
         a(href=detailUrl)= d.name
       .center
@@ -77,17 +78,6 @@ html(lang="en")
             h2= siteDescription
     main.main
       .wrap
-        .intro
-          p
-            | This website lists people working on Bitcoin and related projects.
-            | The goal is to increase the visibility of contributors to the space that are accepting donations.
-            | If you are currently working on a bitcoin related open source project, submit a PR to
-            = " "
-            a(href=editUrl) get yourself added
-            | .
-          p
-            | Being listed on this site should not be considered an endorsement. The order individuals are shown is randomized every visit.
-
         block main
 
         script.
