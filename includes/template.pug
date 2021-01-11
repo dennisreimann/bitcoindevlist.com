@@ -11,43 +11,7 @@ block vars
 - const pageDescription = description || siteDescription
 - const pageKeywords = keywords || siteKeywords
 
-mixin donatee(d, trunc = true)
-  - const detailUrl = `/${d.id}/#${d.id}`
-  .donatee(id=d.id)&attributes(attributes)
-    .inner
-      a(href=detailUrl)
-        img.avatar(src=(d.avatar || '/img/avatar.svg') alt=d.name)
-      h3.name
-        a(href=detailUrl)= d.name
-      .center
-        if d.description
-          .description
-            - const [head, tail] = trunc ? truncate(d.description, 21) : [d.description]
-            - const description = tail ? `${head} <a href="${detailUrl}" class="showMore">[…&nbsp;more]</a> <span class="more">${tail}</span>` : head
-            != renderMarkdown(description)
-        if d.tags
-          .tags
-            each tag in d.tags
-              a.tag(href=`/tag/${slugify(tag)}`)= tag
-      if d.twitter || d.github || d.gitlab
-        .social
-          if d.twitter
-            a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank") Twitter
-          if d.gitlab
-            a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank") GitLab
-          if d.github
-            a.github(href=`https://github.com/${d.github}` target="_blank") GitHub
-      .foot
-        if d.donate
-          a.cta(href=d.donate)
-            = `Donate to ${d.name.split(' ')[0]}`
-            if d.lightning
-              span.ln= "⚡️"
-
-mixin donatees(list)
-  ul.donatees&attributes(attributes)
-    each d in shuffle(list)
-      li: +donatee(d)
+include /mixins.pug
 
 <!DOCTYPE html>
 html(lang="en")
