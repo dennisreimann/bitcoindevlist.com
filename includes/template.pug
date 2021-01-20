@@ -24,19 +24,21 @@ html(lang="en")
     meta(property="twitter:card" content="summary")
     meta(property="twitter:title" content=pageTitle)
     meta(property="twitter:description" content=pageDescription)
-    meta(property="twitter:image" content="https://bitcoindevlist.com/card.png")
-    link(rel="apple-touch-icon" sizes="180x180" href="/bitcoin.svg")
-    link(rel="icon" type="image/png" sizes="32x32" href="/bitcoin.svg")
-    link(rel="icon" type="image/png" sizes="16x16" href="/bitcoin.svg")
-    link(rel="stylesheet" href="/index.css")
+    meta(property="twitter:image" content=assetUrl("/img/card.png"))
+    link(rel="apple-touch-icon" sizes="180x180" href=assetPath("/img/bitcoin.svg"))
+    link(rel="icon" type="image/png" sizes="32x32" href=assetPath("/img/bitcoin.svg"))
+    link(rel="icon" type="image/png" sizes="16x16" href=assetPath("/img/bitcoin.svg"))
+    link(rel="stylesheet" href=assetPath("/index.css"))
     link(rel="manifest" href="/site.webmanifest")
     title= pageTitle
+    style.
+      .avatar { background-image: url(#{assetPath("/img/avatar.svg")}); }
   body
     header.header
       .wrap
         .inner
           a(href="/")
-            img.logo(src="/bitcoin.svg")
+            img.logo(src=assetPath("/img/bitcoin.svg"))
           div
             h1= siteTitle
             h2= siteDescription

@@ -19,9 +19,19 @@ const truncate = (str, wordCount) => {
   const tail = words.join(' ')
   return [head, tail]
 }
+const assetPath = path => {
+  let revs
+  try { revs = require('./rev-manifest.json') } catch (error) { }
+  return `${(revs && revs[path]) || path}`
+}
+const assetUrl = (path, protocol = 'https') => {
+  return `${protocol}://bitcoindevlist.com/${assetPath(path)}`
+}
 
 module.exports = {
   slugify,
   truncate,
-  renderMarkdown: mdTransformer.render,
+  assetUrl,
+  assetPath,
+  renderMarkdown: mdTransformer.render
 }

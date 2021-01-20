@@ -38,19 +38,16 @@
   --font-size-xs: 0.65rem;
   --font-size-code: 0.9rem;
 
-  --mq-m-width: 720px;
-  --mq-l-width: 1100px;
-
   --transition-duration-fast: 0.25s;
   --transition-duration-medium: 0.75s;
   --transition-duration-slow: 1.5s;
 }
 
-@custom-media --up_to_M screen and (max-width: calc(var(--mq-m-width) - 1px));
-@custom-media --up_to_L screen and (max-width: calc(var(--mq-l-width) - 1px));
-@custom-media --M_to_L screen and (min-width: var(--mq-m-width)) and (max-width: calc(var(--mq-l-width) - 1px));
-@custom-media --M_and_up screen and (min-width: var(--mq-m-width));
-@custom-media --L_and_up screen and (min-width: var(--mq-l-width));
+@custom-media --up_to_M screen and (max-width: 719px);
+@custom-media --up_to_L screen and (max-width: 1099px);
+@custom-media --M_to_L screen and (min-width: 720px) and (max-width: 1099px);
+@custom-media --M_and_up screen and (min-width: 720px);
+@custom-media --L_and_up screen and (min-width: 1100px);
 
 * {
   margin: 0;
@@ -324,7 +321,6 @@ img {
     border-radius: 50%;
     border: 10px solid var(--color-neutral-95);
     margin: calc(var(--space-xxl) * -1) auto 0;
-    background-image: url(/img/avatar.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }

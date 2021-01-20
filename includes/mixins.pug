@@ -3,7 +3,7 @@ mixin donatee(d, trunc = true)
   .donatee(id=d.id)&attributes(attributes)
     .inner
       a(href=detailUrl)
-        img.avatar(src=(d.avatar || '/img/avatar.svg') alt=d.name)
+        img.avatar(src=(d.avatar || assetPath("/img/avatar.svg")) alt=d.name)
       h3.name
         a(href=detailUrl)= d.name
       .center
@@ -40,4 +40,4 @@ mixin donatees(list)
 
 mixin icon(id, title)
   svg(role="img" title=(title || id))&attributes(attributes)
-    use(xlink:href=`/img/icons.svg#${id}`)
+    use(xlink:href=`${assetPath("/img/icons.svg")}#${id}`)
