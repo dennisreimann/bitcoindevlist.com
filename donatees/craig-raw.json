@@ -1,0 +1,12 @@
+{
+  "name": "Craig Raw",
+  "github": "craigraw",
+  "twitter": "craigraw",
+  "donate": "https://sparrowwallet.com/donate",
+  "avatar": "https://sparrowwallet.com/assets/images/about/craigraw.png",
+  "description": "Founder and developer of [Sparrow Wallet](https://sparrowwallet.com). Also working on airgapped wallet standards.",
+  "lightning": false,
+  "tags": [
+    "Sparrow Wallet"
+  ]
+}
