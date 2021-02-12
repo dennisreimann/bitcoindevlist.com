@@ -1,0 +1,14 @@
+{
+  "name": "Rene Pickhardt",
+  "github": "renepickhardt",
+  "twitter": "renepickhardt",
+  "donate": "https://voting.ln.rene-pickhardt.de/",
+  "avatar": "https://avatars.githubusercontent.com/u/1926816?s=460&",  
+  "description": "Improving payment reliability on the Lightning Network. [Mastering the Lighting Network](https://github.com/lnbook/lnbook) co-author and [Educator on Youtube](https://youtube.com/renepickhardt)",
+  "lightning": true,
+  "tags": [
+    "Lightning Network",
+    "Educator",
+    "c-lightning"
+  ]
+}
