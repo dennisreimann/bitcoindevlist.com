@@ -1,0 +1,17 @@
+{
+  "name": "Max Hillebrand",
+  "github": "MaxHillebrand",
+  "twitter": "HillebrandMax",
+  "mastodon": "https://bitcoinhackers.org/@maxhillebrand",
+  "donate": "https://towardsliberty.com/donate",
+  "avatar": "https://avatars1.githubusercontent.com/u/30683012",
+  "description": "I'm contributing to several free software projects, building the tools I want to use in order to defend [my liberties](https://towardsliberty.com). As these weapons of cyberspace are fundamentally non-scarce, I share my work free for anyone to use. My focus is on creating a second realm with a sound monetary economy in which sovereign individuals can pursue their entrepreneurial action.",
+  "lightning": true,
+  "tags": [
+    "Privacy",
+    "Wasabi Wallet",
+    "Research",
+    "Lightning",
+    "Bisq"
+  ]
+}
