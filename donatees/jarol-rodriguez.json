@@ -1,0 +1,11 @@
+{
+  "name": "Jarol Rodriguez",
+  "github": "jarolrod",
+  "twitter": "jarolrod",
+  "donate": "https://github.com/sponsors/jarolrod",
+  "avatar": "https://avatars.githubusercontent.com/u/23396902?s=460",
+  "description": "Bitcoin Core contributor working to ensure Bitcoin remains sound by performing code review, tackling issues, and fixing bugs. When I'm not reviewing or fixing bugs, I dig through the core and GUI repo, looking for documentation that requires updating.",
+  "tags": [
+    "Bitcoin Core"
+  ]
+}
