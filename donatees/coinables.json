@@ -1,0 +1,13 @@
+{
+  "name": "coinableS",
+  "github": "coinables",
+  "twitter": "coinableS",
+  "donate": "https://coinables.github.io/explorer/addr/?q=3DrziWGfPSYWZpmGxL4WytNeXA2mwzEwWJ",
+  "avatar": "",
+  "description": "Open-Source software engineer. Creator of [SegWitAddress.org](https://segwitaddress.org/), author of the first Bitcoin Web Development book Building Bitcoin Websites, and creator many other bitcoin tools [Coinables.GitHub.io](https://coinables.github.io/)",
+  "tags": [
+    "SegWitAddress",
+    "Bitcoin Web Development",
+    "buidlJS"
+  ]
+}
