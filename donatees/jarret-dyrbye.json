@@ -1,0 +1,15 @@
+{
+  "name": "Jarret Dyrbye",
+  "github": "jarret",
+  "twitter": "jd2983",
+  "donate": "https://socket.money/#donate",
+  "avatar": "https://raw.githubusercontent.com/jarret/jarret.github.io/master/img/jd2983.png",
+  "description": "I'm building [Moneysocket](https://socket.money), a language-agnostic, open source, socket protocol for melding Lightning Network payments into applications. My motivation is to enable ecosystems of programs that coordinate with payments on behalf of - and in the exclusive interest of - their sovereign users.",
+  "lightning": true,
+  "tags": [
+    "Lightning",
+    "Micropayments",
+    "UI/UX",
+    "Wallet"
+  ]
+}
