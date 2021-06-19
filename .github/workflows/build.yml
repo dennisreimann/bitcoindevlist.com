@@ -27,16 +27,12 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run prod
-      - name: Predeploy
-        if: success() && github.ref == 'refs/heads/master'
-        run: |
-          # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
-          touch dist/.nojekyll
-          # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
-          echo bitcoindevlist.com > dist/CNAME
       - name: Deploy
         if: success() && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./dist
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: bitcoindevlist.com
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
