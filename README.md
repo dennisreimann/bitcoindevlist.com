@@ -6,6 +6,9 @@
 The goal is to increase the visibility of contributors to the space that are accepting donations.
 If you are currently working on a bitcoin related open source project, submit a PR to get yourself added.
 
+We do not want to be gatekeepers for additions.
+As a baseline we have decided on a policy that requires at least one ACK for new entries.
+
 ## Adding yourself to the lists
 
 If you are currently working on a bitcoin related open source project, submit a PR to [get yourself added](https://github.com/dennisreimann/bitcoindevlist.com/edit/master/donatees).
