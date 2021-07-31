@@ -32,6 +32,14 @@ mixin donatee(d, trunc = true)
             = `Donate to ${d.name.split(' ')[0]}`
             if d.lightning
               span.ln= "⚡️"
+        if d.bolt12_single || d.bolt12_recurring
+          h5 Or via LN Offer (copy BOLT12 code)
+          .offer
+            if d.bolt12_single
+              button.cta(type="button" data-clipboard=d.bolt12_single) Single
+            if d.bolt12_recurring
+              button.cta(type="button" data-clipboard=d.bolt12_recurring) Recurring
+
 
 mixin donatees(list)
   ul.donatees&attributes(attributes)

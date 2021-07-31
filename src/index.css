@@ -196,6 +196,10 @@ body {
   flex-direction: column;
 }
 
+button {
+  cursor: pointer;
+}
+
 img {
   text-indent: -999em;
 
@@ -338,6 +342,33 @@ img {
   & .foot {
     margin-top: var(--space-l);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & a + a {
+      margin-top: var(--space-m)
+    }
+
+    & a.bolt12 {
+      color: var(--color-neutral-50);
+      font-size: var(--font-size-s);
+    }
+
+    & h5 {
+      margin-top: var(--space-m);
+    }
+
+    & button.cta {
+      width: 7em;
+      margin: var(--space-s) var(--space-s) 0;
+      background: var(--color-neutral-70);
+
+      &:hover,
+      &:focus {
+        background: var(--color-neutral-60);
+      }
+    }
   }
 
   & .social {
