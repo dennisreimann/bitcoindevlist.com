@@ -24,7 +24,7 @@
     "optimize": "npm-run-all -p optimize:*",
     "optimize:styles": "csso dist/index.css --output dist/index.css",
     "sitemap": "node tasks/generate_sitemap.js",
-    "rev": "node-file-rev --root=dist dist/img/* dist/index.css",
+    "rev": "node-file-rev --root=dist dist/img/* dist/index.css dist/index.js",
     "prod": "npm-run-all build optimize rev build:pages sitemap"
   },
   "devDependencies": {
