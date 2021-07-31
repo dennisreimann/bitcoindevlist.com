@@ -7,5 +7,7 @@
   "description": "I've been contributing to Bitcoin Core on a part-time basis since mid 2017. Most of my time is spent on reviewing and testing work by others, but I also created my own pull requests. Bitcoin ACKs provides a nice overview of my activity on the repo.",
   "tags": [
     "Bitcoin Core"
-  ]
+  ],
+  "bolt12_single": "lno1pgsy7ur9dcs8xmm4wf3k2gryv4mx2mr0wpkk2mn5ypjx7mnpw35k7ms5pefk5mmjwvs9qun0wehk7um5rcsrwlufzdn408gvmlpgxw7rywsaq9g5a6jq6jxvapknrcucyglqevlsgrgkxx9ackp869xue05ml9fpe7cj3eddg3dt79paca9xrhhkweafr2qs4fjwn2268ud4u6lsmerarr3uu76t8068k47jh5q99rgulm07",
+  "bolt12_recurring": "lno1pg5y7ur9dcs8xmm4wf3k2gryv4mx2mr0wpkk2mn5ypkk7mn5dpk8jgrydahxzarfdahpgrjndfhhyueq2pex7an0daehgxszqgq3ugph07y3xe6hn5xdls5r80pj8gwsz52wafqdfrxwsmf3uwvzy0svk0cyqzdh9w50vty55th85pq358dvdp2j3jyyz92thwpcdhnx72tm75klhs5lk8qexx7vqhmtecapdk2hsnngzv8unzn74a7x9yq7nm8dth8q"
 }
