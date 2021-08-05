@@ -1,0 +1,15 @@
+{
+  "name": "Fitti",
+  "github": "Fittiboy",
+  "twitter": "Fittiboy",
+  "donate": "https://fitti.io/tips",
+  "avatar": "https://user-images.githubusercontent.com/28876473/128331231-75ae9ab5-f715-467c-b02f-816a189cc4ec.png",
+  "description": "I find and serve new use cases for Bitcoin. Building [Bitcoin on Twitch](https://github.com/Fittiboy/bitcoin-on-twitch) (and the [LNbits extension](https://github.com/lnbits/lnbits/tree/master/lnbits/extensions/streamalerts)), bringing Bitcoin to streamers. Also working on more, like [paywalled Discord invites](https://fitti.io/discord) and [inboxes](https://fitti.io/dm). I also do a lot of work behind the scenes to educate and onboard new users.",
+  "lightning": true,
+  "tags": [
+    "Lightning",
+    "Adoption",
+    "Research",
+    "Education"
+  ]
+}
