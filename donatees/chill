@@ -1,0 +1,16 @@
+{
+  "name": "chill",
+  "github": "chill117",
+  "twitter": "thechill117",
+  "donate": "https://degreesofzero.com/donate.html?bitcoindevlist",
+  "avatar": "https://avatars.githubusercontent.com/u/1775417?v=4",
+  "description": "Co-creator of the Bleskomat next generation Bitcoin ATM hardware project. Created the PayNoWay double-spend app. Running bitcoin nodes, lightning nodes, and Electrum servers. Created and maintain lnurl-node, passport-lnurl-auth, and other lnurl-related open-source projects.",
+  "lightning": true,
+  "tags": [
+    "Bitcoin",
+    "Bleskomat",
+    "Hardware / DIY Hacking",
+    "Lightning",
+    "lnurl"
+  ]
+}
