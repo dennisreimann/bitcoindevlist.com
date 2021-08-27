@@ -28,7 +28,7 @@
     "prod": "npm-run-all build optimize rev build:pages sitemap"
   },
   "devDependencies": {
-    "autoprefixer": "10.3.1",
+    "autoprefixer": "10.3.3",
     "browser-sync": "2.27.5",
     "csso-cli": "3.0.0",
     "glob": "7.1.7",
