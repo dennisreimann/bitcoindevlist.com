@@ -1,0 +1,15 @@
+{
+  "name": "Francisco Calderón",
+  "github": "grunch",
+  "twitter": "negrunch",
+  "donate": "https://coinos.io/grunch",
+  "avatar": "https://avatars.githubusercontent.com/u/228364?v=4",
+  "description": "I'm a software engineer, Bitcoin and FOSS supporter, currently I've been working on a [p2p lightning network telegram bot](https://github.com/grunch/p2plnbot) and a [A CLI descriptor-based wallet](https://github.com/BlockchainCommons/mori-cli) to be used to safely inherit bitcoin, but my main goal now is to contribute to the [RGB](https://www.rgbfaq.com) project.",
+  "lightning": true,
+  "tags": [
+    "Lightning",
+    "RGB",
+    "Descriptor Wallet",
+    "Telegram Bot"
+  ]
+}
