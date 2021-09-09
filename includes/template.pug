@@ -10,6 +10,7 @@ block vars
 - const pageTitle = title ? `${title} · ${siteTitle}` : siteTitle
 - const pageDescription = description || siteDescription
 - const pageKeywords = keywords || siteKeywords
+- const cardImageUrl = cardImage || assetUrl("/img/card.png")
 
 include /mixins.pug
 
@@ -24,7 +25,7 @@ html(lang="en")
     meta(property="twitter:card" content="summary")
     meta(property="twitter:title" content=pageTitle)
     meta(property="twitter:description" content=pageDescription)
-    meta(property="twitter:image" content=assetUrl("/img/card.png"))
+    meta(property="twitter:image" content=cardImageUrl)
     link(rel="apple-touch-icon" sizes="180x180" href=assetPath("/img/bitcoin.svg"))
     link(rel="icon" type="image/png" sizes="32x32" href=assetPath("/img/bitcoin.svg"))
     link(rel="icon" type="image/png" sizes="16x16" href=assetPath("/img/bitcoin.svg"))
