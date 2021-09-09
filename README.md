@@ -15,6 +15,8 @@ If you are currently working on a bitcoin related open source project, submit a 
 Just append your block of data to the bottom, the list is shuffled on page load.
 You can use Markdown in the `description` property.
 
+We also support [BOLT12](https://bolt12.org/) (`bolt12_single` and `bolt12_recurring`, [example](./donatees/sjors-provoost.json)) and [Lightning Address](https://lightningaddress.com/) (`lnaddr`, [example](./donatees/fitti.json))
+
 ## Local build
 
 [Node.js](https://nodejs.org/en/) is a prerequisite, the dependencies are managed via npm.
