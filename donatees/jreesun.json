@@ -1,0 +1,13 @@
+{
+  "name": "Jeff Sun",
+  "github": "jreesun",
+  "twitter": "",
+  "donate": "https://blockstream.info/address/19f8HVt8LZKzBv8CuBYnxCqn5sd75V658J",
+  "avatar": "",
+  "description": "Creator of [Krux](https://github.com/jreesun/krux), an open-source, airgapped bitcoin hardware signer for the M5StickV; and [urtypes](https://github.com/jreesun/urtypes), a Python implementation of the Blockchain Commons UR Types specification.",
+  "lightning": false,
+  "tags": [
+    "krux",
+    "urtypes"
+  ]
+}
