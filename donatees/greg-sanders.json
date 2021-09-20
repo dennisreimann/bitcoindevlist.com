@@ -1,0 +1,10 @@
+{
+  "name": "Greg Sanders",
+  "github": "instagibbs",
+  "twitter": "theinstagibbs",
+  "donate": "https://github.com/sponsors/instagibbs",
+  "description": "I contribute to the open source Bitcoin Core related repos, and other associated Bitcoin projects. I focus on consensus, p2p networks, and wallets.",
+  "tags": [
+    "Bitcoin Core"
+  ]
+}
