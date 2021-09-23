@@ -19,16 +19,16 @@ mixin donatee(d, trunc = true)
       if d.twitter || d.github || d.gitlab
         .social
           if d.twitter
-            a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank"): +icon('twitter', 'Twitter')
+            a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank" rel="nofollow noopener"): +icon('twitter', 'Twitter')
           if d.mastodon
-            a.mastodon(href=d.mastodon target="_blank"): +icon('mastodon', 'Mastodon')
+            a.mastodon(href=d.mastodon target="_blank" rel="nofollow noopener"): +icon('mastodon', 'Mastodon')
           if d.gitlab
-            a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank"): +icon('gitlab', 'GitLab')
+            a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank" rel="nofollow noopener"): +icon('gitlab', 'GitLab')
           if d.github
-            a.github(href=`https://github.com/${d.github}` target="_blank"): +icon('github', 'GitHub')
+            a.github(href=`https://github.com/${d.github}` target="_blank" rel="nofollow noopener"): +icon('github', 'GitHub')
       .foot
         if d.donate
-          a.cta(href=d.donate)
+          a.cta(href=d.donate target="_blank" rel="nofollow noopener")
             = `Donate to ${d.name.split(' ')[0]}`
             if d.lightning
               span.ln= "⚡️"
