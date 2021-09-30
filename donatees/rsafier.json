@@ -1,0 +1,13 @@
+{
+  "name": "Richard Safier",
+  "github": "rsafier",
+  "twitter": "NodeHello",
+  "donate": "https://btcpay.xenon.fun/apps/41Cvr8bo3LgG42kmNyyDccvMzK2U/crowdfund",
+  "avatar": "https://avatars.githubusercontent.com/u/645964?v=4",
+  "description": "Working on [Plebnet Playground](https://plebnet.wiki/wiki/Plebnet_Playground) - A custom signet and Docker packages which allows end-users and dev to use and test bitcoin and lightning technologies without the financial risk involved with running on the mainnet chain.",
+  "lightning": true,
+  "tags": [
+    "Lightning",
+    "Plebnet"
+  ]
+}
