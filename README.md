@@ -17,6 +17,27 @@ You can use Markdown in the `description` property.
 
 We also support [BOLT12](https://bolt12.org/) (`bolt12_single` and `bolt12_recurring`, [example](./donatees/sjors-provoost.json)) and [Lightning Address](https://lightningaddress.com/) (`lnaddr`, [example](./donatees/fitti.json))
 
+### Addition template / available options
+
+```json
+{
+  "name": "Your name",
+  "github": "GitHub username",
+  "twitter": "Twitter username without @",
+  "mastodon": "Mastodon URL",
+  "donate": "Donation URL",
+  "avatar": "Avatar URL",
+  "description": "A short bio which can include links via Markdown",
+  "lightning": true,
+  "bolt12_single": "BOLT12 for a single offer",
+  "bolt12_recurring": "BOLT12 for a recurring offer",
+  "tags": [
+    "Bitcoin",
+    "Lightning"
+  ]
+}
+```
+
 ## Local build
 
 [Node.js](https://nodejs.org/en/) is a prerequisite, the dependencies are managed via npm.
