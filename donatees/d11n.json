@@ -7,6 +7,7 @@
   "avatar": "https://avatars1.githubusercontent.com/u/886?s=160",
   "description": "Improving the UX/UI of Bitcoin-related projects. Currently working full-time on [BTCPay Server](https://btcpayserver.org). Learn more via [my GitHub Sponsors profile](https://github.com/sponsors/dennisreimann).",
   "lightning": true,
+  "lnaddr": "donate@pay.d11n.net",
   "tags": [
     "BTCPay Server",
     "UX/UI Design"
