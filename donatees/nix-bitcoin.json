@@ -2,11 +2,14 @@
   "name": "nix-bitcoin",
   "github": "fort-nix/nix-bitcoin",
   "twitter": "nixbitcoinorg",
-  "donate": "https://nixbitcoin.org/btcpayserver/apps/4D1Dxb5cGnXHRgNRBpoaraZKTX3i/pos",
-  "avatar": "https://nixbitcoin.org/files/nix-bitcoin-logo.png",
-  "description": "nix-bitcoin is a collection of Nix packages and NixOS modules for easily installing full-featured Bitcoin nodes with an emphasis on security.",
+  "donate": "https://nixbitcoin.org/donate",
+  "avatar": "https://nixbitcoin.org/files/nix-bitcoin-logo-bg.png",
+  "description": "[nix-bitcoin](https://nixbitcoin.org) is a collection of Nix packages and NixOS modules for easily installing full-featured Bitcoin nodes with an emphasis on security.",
   "lightning": true,
   "tags": [
-    "nix-bitcoin"
+    "NixOS",
+    "Nix",
+    "Node",
+    "Devops"
   ]
 }
