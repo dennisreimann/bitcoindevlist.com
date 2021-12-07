@@ -1,0 +1,22 @@
+{
+  "name": "Vincenzo Palazzo",
+  "github": "vincenzopalazzo",
+  "twitter": "PalazzoVincenzo",
+  "mastodon": "https://x0f.org/@vincenzopalazzo",
+  "donate": "https://github.com/sponsors/vincenzopalazzo",
+  "avatar": "https://avatars.githubusercontent.com/u/17150045?s=160&v=4",
+  "description": "Working on [c-lightning](https://github.com/ElementsProject/lightning) implementation, and current maintainer of [lnprototest](https://github.com/rustyrussell/lnprototest) and [rust-clightning-rpc](https://github.com/laanwj/rust-clightning-rpc) rust library. In addition, I’m researching during my master's thesis to establish some metrics about the goodness of one lightning node with [lnmetrics](https://github.com/LNOpenMetrics) project.",
+  "lightning": true,
+  "bolt12_single": "lno1pgh5gmmwv96xjmmwypnx7u3qd35kw6r5de5kueeqv9hxggzzd96xxmmfdcs8yetvv96x2epqwahhy6c7yr3ypzjf7p7j7syr53e5gyuwlz08v9lx8yvjqtyj42x5ndt554s2auzqp6l6wsgag9gv6vh2ypleuhwr7v3g4ukjht25zy6n2y4yx9qdnlyrcqwqvlr5altqpu3czh88r6nyflrjj207uk8nj7a230xkk7fhcec",
+  "bolt12_recurring": "lno1pgu4yetrw4e8yetwwssygmmwv96xjmmwypnx7u3qd35kw6r5de5kueeqv9hxggzzd96xxmmfdcs8yetvv96x2epqwahhy6c6qgpqz83qufqg5j0s05h5pqaywdzp8rhcnemp0e3eryszey4234ym2a99vzh0qspe9mwky9q79wyuufxgn6na5rp3gkc8yrcsnmlfhaeh4w2r0yl6ye5tpmcqftdyacv2m2azvlsj8nvxs097hrucywngrxh4afkwg2d4v",
+  "lnaddr": "vincenzopalazzo@lntxbot.com",
+  "tags": [
+    "c-lightning",
+    "lightning",
+    "lnprototest",
+    "rust-clightning-rpc",
+    "Research",
+    "lnmetrics",
+    "LNOpenMetrics"
+  ]
+}
