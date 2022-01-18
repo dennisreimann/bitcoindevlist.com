@@ -1,9 +1,10 @@
 {
-  "name": "__B__T__C__",
+  "name": "BTC",
   "twitter": "__B__T__C__",
   "donate": "https://linktr.ee/Satosh1",
   "avatar": "https://pbs.twimg.com/profile_images/1396085312686854146/HySUvmxr_400x400.jpg",
   "description": "˙ʎɹɹos 'noʎ ǝɔuıʌuoɔ oʇ ʎɹʇ oʇ ǝɯıʇ ǝɥʇ ǝʌɐɥ ʇ,uop I 'ʇı ʇǝɓ ʇ,uop ɹo ʇı ǝʌǝılǝq ʇ,uop noʎ ɟI",
+  "lnaddr": "sn@getalby.com",
   "tags": [
     "Bitcoin",
     "Lightning",
