@@ -28,22 +28,22 @@
     "prod": "npm-run-all build optimize rev build:pages sitemap"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.2",
-    "browser-sync": "2.27.7",
+    "autoprefixer": "10.4.7",
+    "browser-sync": "2.27.9",
     "csso-cli": "3.0.0",
-    "glob": "7.2.0",
+    "glob": "8.0.1",
     "jstransformer-markdown-it": "2.1.0",
-    "markdown-it": "12.3.2",
+    "markdown-it": "13.0.1",
     "node-file-rev": "1.1.4",
     "npm-run-all": "4.1.5",
     "onchange": "7.1.0",
-    "postcss": "8.4.6",
+    "postcss": "8.4.13",
     "postcss-calc": "8.2.4",
     "postcss-cli": "9.1.0",
     "postcss-custom-media": "8.0.0",
-    "postcss-custom-properties": "12.1.4",
+    "postcss-custom-properties": "12.1.7",
     "postcss-media-variables": "2.0.1",
-    "postcss-nesting": "10.1.2",
+    "postcss-nesting": "10.1.4",
     "pug": "3.0.2"
   }
 }
