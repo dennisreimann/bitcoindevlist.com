@@ -41,7 +41,7 @@
     "postcss-calc": "8.2.4",
     "postcss-cli": "9.1.0",
     "postcss-custom-media": "8.0.2",
-    "postcss-custom-properties": "12.1.7",
+    "postcss-custom-properties": "12.1.8",
     "postcss-media-variables": "2.0.1",
     "postcss-nesting": "10.1.8",
     "pug": "3.0.2"
