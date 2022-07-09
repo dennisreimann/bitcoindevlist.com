@@ -3,9 +3,9 @@
   "github": "secondl1ght",
   "twitter": "secondl1ght",
   "mastodon": "secondl1ght",
-  "donate": "https://secondl1ght.site/#support",
+  "donate": "https://coinos.io/secondl1ght",
   "avatar": "https://secondl1ght.site/images/avatar.png",
-  "description": "I’m a Web Developer and contributing to [Token Ocean](https://tokenocean.io) 🌊 / [coinos](https://coinos.io) 🪙, [Alby](https://getalby.com) 🐝, [Geyser](https://geyser.fund) 🔵, [Jam](https://github.com/joinmarket-webui) 🍓, + other open source bitcoin projects. I've also built some personal bitcoin projects which you can check out [here](https://github.com/secondl1ght-projects).",
+  "description": "I’m a Web Developer and contributing to [coinos](https://coinos.io), [Raretoshi](https://raretoshi.com), [Geyser](https://geyser.fund), [Alby](https://getalby.com) + other open source bitcoin projects.",
   "lightning": true,
   "tags": [
     "Bitcoin",
