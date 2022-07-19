@@ -30,7 +30,7 @@
   "devDependencies": {
     "autoprefixer": "10.4.7",
     "browser-sync": "2.27.10",
-    "csso-cli": "3.0.0",
+    "csso-cli": "4.0.1",
     "glob": "8.0.3",
     "jstransformer-markdown-it": "2.1.0",
     "markdown-it": "13.0.1",
@@ -39,11 +39,10 @@
     "onchange": "7.1.0",
     "postcss": "8.4.14",
     "postcss-calc": "8.2.4",
-    "postcss-cli": "9.1.0",
+    "postcss-cli": "10.0.0",
     "postcss-custom-media": "8.0.2",
     "postcss-custom-properties": "12.1.8",
-    "postcss-media-variables": "2.0.1",
-    "postcss-nesting": "10.1.8",
+    "postcss-nesting": "10.1.10",
     "pug": "3.0.2"
   }
 }
