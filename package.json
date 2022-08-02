@@ -28,11 +28,11 @@
     "prod": "npm-run-all build optimize rev build:pages sitemap"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.7",
+    "autoprefixer": "10.4.8",
     "browser-sync": "2.27.10",
     "csso-cli": "4.0.1",
     "glob": "8.0.3",
-    "jstransformer-markdown-it": "2.1.0",
+    "jstransformer-markdown-it": "3.0.0",
     "markdown-it": "13.0.1",
     "node-file-rev": "1.1.4",
     "npm-run-all": "4.1.5",
