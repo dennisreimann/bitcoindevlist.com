@@ -1,0 +1,15 @@
+{
+  "name": "Massimo Musumeci",
+  "github": "massmux",
+  "twitter": "massmux",
+  "donate": "https://coinos.io/massmux",
+  "avatar": "https://avatars.githubusercontent.com/u/8768991?v=4",
+  "description": "I'm building [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot/), Bitcoin Voucher platform. I am a physicist, researcher and educator. Working also on videos, tutorials, books and articles on Bitcoin, privacy and security. Contributing to FOSS projects.",
+  "lightning": true,
+  "tags": [
+    "Lightning",
+    "Liquid",
+    "LNURL",
+    "Telegram Bot UI"
+  ]
+}
