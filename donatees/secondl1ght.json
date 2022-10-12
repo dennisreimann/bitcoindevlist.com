@@ -5,7 +5,7 @@
   "mastodon": "https://bitcoinhackers.org/@secondl1ght",
   "donate": "https://classic.coinos.io/secondl1ght",
   "avatar": "https://secondl1ght.site/images/avatar.png",
-  "description": "I’m a Web Developer and contributing to [CoinOS](https://coinos.io), [BTC Map](https://btcmap.org), [Geyser](https://geyser.fund), [Alby](https://getalby.com), [Raretoshi](https://raretoshi.com) + other open source bitcoin projects.",
+  "description": "I’m a Web Developer and contributing to [coinos](https://coinos.io) & [BTC Map](https://btcmap.org) + other open source bitcoin projects.",
   "lightning": true,
   "tags": [
     "Bitcoin",
