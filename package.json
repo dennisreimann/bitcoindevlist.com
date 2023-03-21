@@ -28,10 +28,10 @@
     "prod": "npm-run-all build optimize rev build:pages sitemap"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.13",
-    "browser-sync": "2.27.11",
-    "csso-cli": "4.0.1",
-    "glob": "8.1.0",
+    "autoprefixer": "10.4.14",
+    "browser-sync": "2.29.0",
+    "csso-cli": "4.0.2",
+    "glob": "9.3.1",
     "jstransformer-markdown-it": "3.0.0",
     "markdown-it": "13.0.1",
     "node-file-rev": "1.1.4",
@@ -41,7 +41,7 @@
     "postcss-calc": "8.2.4",
     "postcss-cli": "10.1.0",
     "postcss-custom-media": "9.1.2",
-    "postcss-nesting": "10.2.0",
+    "postcss-nesting": "11.2.1",
     "pug": "3.0.2"
   }
 }
