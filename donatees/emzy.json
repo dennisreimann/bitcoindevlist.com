@@ -5,9 +5,5 @@
   "donate": "https://donate.emzy.de",
   "avatar": "https://avatars1.githubusercontent.com/u/1223908?s=460&u=66477849292f33a9134f23b8d8000f0492d591b3&v=4",
   "description": "I contribute to Bitcoin by running nodes like Bitcoin, Lighting, an Electrum server and nodes for the Bisq network.",
-  "tags": [
-    "Bisq",
-    "Bitcoin Core",
-    "Lightning"
-  ]
+  "tags": ["Bisq", "Bitcoin Core", "Lightning"]
 }

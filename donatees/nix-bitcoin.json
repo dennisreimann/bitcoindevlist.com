@@ -6,10 +6,5 @@
   "avatar": "https://nixbitcoin.org/files/nix-bitcoin-logo-bg.png",
   "description": "[nix-bitcoin](https://nixbitcoin.org) is a collection of Nix packages and NixOS modules for easily installing full-featured Bitcoin nodes with an emphasis on security.",
   "lightning": true,
-  "tags": [
-    "NixOS",
-    "Nix",
-    "Node",
-    "Devops"
-  ]
+  "tags": ["NixOS", "Nix", "Node", "Devops"]
 }

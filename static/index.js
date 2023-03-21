@@ -1,8 +1,16 @@
 // shuffle
-const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * i); const temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; }; return arr }
+const shuffle = arr => {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * i)
+    const temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+  }
+  return arr
+}
 document.querySelectorAll('.donatees').forEach(list => {
   const donatees = Array.from(list.querySelectorAll('li'))
-  list.innerHTML = ""
+  list.innerHTML = ''
   shuffle(donatees).forEach(li => list.appendChild(li))
 })
 // more
@@ -33,12 +41,14 @@ const copyToClipboard = (e, text) => {
     }
     navigator.clipboard.writeText(data).then(() => {
       confirm.innerText = message
-      setTimeout(() => { confirm.innerText = confirm.dataset.clipboardInitialText }, 2500)
+      setTimeout(() => {
+        confirm.innerText = confirm.dataset.clipboardInitialText
+      }, 2500)
     })
     item.blur()
   }
 }
 
-document.querySelectorAll("[data-clipboard]").forEach(item => {
-  item.addEventListener("click", copyToClipboard)
+document.querySelectorAll('[data-clipboard]').forEach(item => {
+  item.addEventListener('click', copyToClipboard)
 })

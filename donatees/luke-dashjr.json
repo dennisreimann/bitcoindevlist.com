@@ -4,7 +4,5 @@
   "twitter": "LukeDashjr",
   "donate": "https://github.com/sponsors/luke-jr",
   "description": "As the longest-contributing Bitcoin Core developer, I've been working on Bitcoin since the start of 2011, primarily involving ongoing development, but also including research (of possible future improvements), community education, handling security issues, etc.",
-  "tags": [
-    "Bitcoin Core"
-  ]
+  "tags": ["Bitcoin Core"]
 }

@@ -6,9 +6,7 @@
   "donate": "https://github.com/sponsors/Sjors",
   "avatar": "https://mastodon.sprovoost.nl/system/accounts/avatars/109/887/537/079/015/035/original/e6c45ff623707857.png",
   "description": "I've been contributing to Bitcoin Core on a part-time basis since mid 2017. Most of my time is spent on reviewing and testing work by others, but I also created my own pull requests. Bitcoin ACKs provides a nice overview of my activity on the repo.",
-  "tags": [
-    "Bitcoin Core"
-  ],
+  "tags": ["Bitcoin Core"],
   "bolt12_single": "lno1pg4y7ur9dcs8xmm4wf3k2gryv4mx2mr0wpkk2mn5ypjx7mnpw35k7m3qvehhygzndfhhyuc5pefk5mmjwvs9qun0wehk7um5rcsrwlufzdn408gvmlpgxw7rywsaq9g5a6jq6jxvapknrcucyglqevlsgqgf4k7rc5runmkuex8ue6jrj0r9jszltusclp4yd0z4mekwa7k8dfskd2ltdlfmcdnm6f0sv5jsrs6t3vkql8nav0vl6w4l44gmaf4c",
   "lnaddr": "sjors@sprovoost.nl"
 }

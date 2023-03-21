@@ -3,12 +3,8 @@
   "github": "renepickhardt",
   "twitter": "renepickhardt",
   "donate": "https://voting.ln.rene-pickhardt.de/",
-  "avatar": "https://avatars.githubusercontent.com/u/1926816?s=460",  
+  "avatar": "https://avatars.githubusercontent.com/u/1926816?s=460",
   "description": "Improving payment reliability on the Lightning Network. [Mastering the Lighting Network](https://github.com/lnbook/lnbook) co-author and [Educator on Youtube](https://youtube.com/renepickhardt) and [Stack Exchange](https://bitcoin.stackexchange.com/users/81940/rene-pickhardt)",
   "lightning": true,
-  "tags": [
-    "Lightning",
-    "Education",
-    "c-lightning"
-  ]
+  "tags": ["Lightning", "Education", "c-lightning"]
 }

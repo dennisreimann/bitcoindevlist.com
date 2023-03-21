@@ -5,9 +5,6 @@
   "donate": "https://github.com/sponsors/kaloudis",
   "avatar": "https://avatars1.githubusercontent.com/u/1878621?s=160",
   "description": "Working on Bitcoin-related projects, first and foremost, the Bitcoin/Lightning mobile wallet [Zeus](https://zeusln.app/).",
-  "tags": [
-    "Lightning",
-    "Zeus"
-  ],
+  "tags": ["Lightning", "Zeus"],
   "lnaddr": "evan@pay.zeusln.app"
 }

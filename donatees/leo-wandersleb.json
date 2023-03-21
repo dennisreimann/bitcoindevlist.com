@@ -7,8 +7,5 @@
   "avatar": "https://avatars2.githubusercontent.com/u/96378?s=160",
   "description": "I'm the founder and maintainer of [WalletScrutiny.com](https://walletscrutiny.com/), a project aimed at making wallets more transparent by promoting self-custodial wallets that feature public source code and reproducible builds.",
   "lightning": true,
-  "tags": [
-    "Security",
-    "WalletScrutiny"
-    ]
+  "tags": ["Security", "WalletScrutiny"]
 }

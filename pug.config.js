@@ -1,4 +1,10 @@
-const { slugify, truncate, assetUrl, assetPath, renderMarkdown } = require('./helpers')
+const {
+  slugify,
+  truncate,
+  assetUrl,
+  assetPath,
+  renderMarkdown
+} = require('./helpers')
 
 module.exports = {
   basedir: './includes',
@@ -7,5 +13,5 @@ module.exports = {
   truncate,
   assetUrl,
   assetPath,
-  renderMarkdown,
+  renderMarkdown
 }

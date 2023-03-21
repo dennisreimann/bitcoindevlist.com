@@ -3,6 +3,6 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-nesting'),
     require('postcss-custom-media'),
-    require('postcss-calc'),
-  ],
+    require('postcss-calc')
+  ]
 }

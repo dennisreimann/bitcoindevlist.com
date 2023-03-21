@@ -7,11 +7,6 @@
   "avatar": "https://secondl1ght.site/images/avatar.png",
   "description": "I’m a Web Developer and contributing to [Amboss](https://amboss.space/) & [BTC Map](https://btcmap.org) + other open source bitcoin projects.",
   "lightning": true,
-  "tags": [
-    "Bitcoin",
-    "Lightning",
-    "Liquid",
-    "Web Apps"
-  ],
+  "tags": ["Bitcoin", "Lightning", "Liquid", "Web Apps"],
   "lnaddr": "secondl1ght@getalby.com"
 }

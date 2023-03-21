@@ -31,24 +31,30 @@ renderPage('index', 'index')
 
 // donatees
 donatees.forEach(donatee => {
-  const data = donatees.reduce((res, d) =>
-    Object.assign(res, d.id === donatee.id
-      ? { ['feature']: d }
-      : { ['other']: res.other.concat(d) }
-    )
-  , { feature: null, other: [] })
+  const data = donatees.reduce(
+    (res, d) =>
+      Object.assign(
+        res,
+        d.id === donatee.id
+          ? { ['feature']: d }
+          : { ['other']: res.other.concat(d) }
+      ),
+    { feature: null, other: [] }
+  )
 
   renderPage('donatee', `${donatee.id}/index`, data)
 })
 
 // tags
 Object.values(byTag).forEach(({ slug, tag, donatees: feature }) => {
-  const data = donatees.reduce((res, d) =>
-    Object.assign(res, feature.includes(d)
-      ? {}
-      : { ['other']: res.other.concat(d) }
-    )
-  , { other: [] })
+  const data = donatees.reduce(
+    (res, d) =>
+      Object.assign(
+        res,
+        feature.includes(d) ? {} : { ['other']: res.other.concat(d) }
+      ),
+    { other: [] }
+  )
 
   data.tag = tag
   data.feature = feature

@@ -1,4 +1,4 @@
 module.exports = {
   open: false,
-  server: ['./dist'],
+  server: ['./dist']
 }

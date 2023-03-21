@@ -25,7 +25,8 @@
     "optimize:styles": "csso dist/index.css --output dist/index.css",
     "sitemap": "node tasks/generate_sitemap.js",
     "rev": "node-file-rev --root=dist dist/img/* dist/index.css dist/index.js",
-    "prod": "npm-run-all build optimize rev build:pages sitemap"
+    "prod": "npm-run-all build optimize rev build:pages sitemap",
+    "prettier": "prettier --write '**/*.{js,json,md}'"
   },
   "devDependencies": {
     "autoprefixer": "10.4.14",
@@ -42,6 +43,13 @@
     "postcss-cli": "10.1.0",
     "postcss-custom-media": "9.1.2",
     "postcss-nesting": "11.2.1",
+    "prettier": "2.8.6",
     "pug": "3.0.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
   }
 }

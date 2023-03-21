@@ -6,7 +6,5 @@
   "avatar": "https://avatars2.githubusercontent.com/u/30862925?s=160",
   "description": "Working full time for JungleLab, BTCPayServer, & maintaining [BTCPayJungle](https://btcpayjungle.com/).",
   "lightning": true,
-  "tags": [
-    "BTCPay Server"
-  ]
+  "tags": ["BTCPay Server"]
 }

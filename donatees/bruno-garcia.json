@@ -5,7 +5,5 @@
   "donate": "https://github.com/brunoerg",
   "avatar": "https://avatars.githubusercontent.com/u/19480819?v=4",
   "description": "Bitcoin Core contributor, focusing on reviewing/testing pull requests, improving/adding tests, and writing new features. I also maintain a coin selection library in Typescript and mentor LaTam undergraduate students on their Bitcoin journey.",
-  "tags": [
-    "Bitcoin Core"
-  ]
+  "tags": ["Bitcoin Core"]
 }

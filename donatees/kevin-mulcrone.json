@@ -4,7 +4,5 @@
   "twitter": "KayBeSee",
   "donate": "https://github.com/sponsors/KayBeSee",
   "description": "Building Lily Wallet, a desktop application that makes it easy to secure and use your Bitcoin using the latest technologies like multisignature vaults and PSBTs.",
-  "tags": [
-    "UX/UI Design"
-  ]
+  "tags": ["UX/UI Design"]
 }

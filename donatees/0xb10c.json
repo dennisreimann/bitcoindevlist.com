@@ -6,9 +6,5 @@
   "avatar": "https://b10c.me/0xb10c.png",
   "description": "Bitcoin Engineer and Researcher. Projects: [b10c.me/projects](https://b10c.me/projects). Occasionally contribute to Bitcoin Core, e.g. [#22006](https://github.com/bitcoin/bitcoin/pull/22006), too.",
   "lightning": true,
-  "tags": [
-    "Research",
-    "Bitcoin Data",
-    "Bitcoin Core"
-  ]
+  "tags": ["Research", "Bitcoin Data", "Bitcoin Core"]
 }

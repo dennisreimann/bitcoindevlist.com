@@ -5,7 +5,5 @@
   "donate": "https://donate.devinbileck.com",
   "avatar": "https://avatars2.githubusercontent.com/u/603793",
   "description": "I contribute to the Bisq network including running infrastructure nodes.",
-  "tags": [
-    "Bisq"
-  ]
+  "tags": ["Bisq"]
 }

@@ -6,7 +6,5 @@
   "avatar": "https://sparrowwallet.com/assets/images/about/craigraw.png",
   "description": "Founder and developer of [Sparrow Wallet](https://sparrowwallet.com). Also working on airgapped wallet standards.",
   "lightning": false,
-  "tags": [
-    "Sparrow Wallet"
-  ]
+  "tags": ["Sparrow Wallet"]
 }
