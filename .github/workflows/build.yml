@@ -11,22 +11,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14]
-
     steps:
+      # Checkout and setup
       - name: Checkout
-        uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 16
+      # Install and build
       - name: Install
         run: npm ci
       - name: Build
         run: npm run prod
+      # Deploy, limited to the master branch
       - name: Deploy
         if: success() && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
