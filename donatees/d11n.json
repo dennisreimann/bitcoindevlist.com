@@ -2,10 +2,11 @@
   "name": "d11n",
   "github": "DennisReimann",
   "twitter": "_d11n_",
-  "donate": "https://github.com/sponsors/dennisreimann",
-  "avatar": "https://avatars1.githubusercontent.com/u/886?s=160",
-  "description": "Improving the UX/UI of Bitcoin-related projects. Currently working full-time on [BTCPay Server](https://btcpayserver.org). Learn more via [my GitHub Sponsors profile](https://github.com/sponsors/dennisreimann).",
+  "nostr": "https://primal.net/p/npub14j7wc366rf8efqvnnm8m68pazy04kkj8fgu6uqumh3eqlhfst0kqrngtpf",
+  "donate": "https://d11n.net/donate",
+  "avatar": "https://d11n.net/images/avatars/d11n.png",
+  "description": "Improving the UX/UI of Bitcoin-related projects. Currently working full-time on [BTCPay Server](https://btcpayserver.org).",
   "lightning": true,
-  "lnaddr": "sats@d11n.net",
+  "lnaddr": "donate@d11n.net",
   "tags": ["BTCPay Server", "UX/UI Design"]
 }
