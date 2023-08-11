@@ -24,6 +24,7 @@ We also support [BOLT12](https://bolt12.org/) (`bolt12_single` and `bolt12_recur
   "name": "Your name",
   "github": "GitHub username",
   "twitter": "Twitter username without @",
+  "nostr": "Nostr URL",
   "mastodon": "Mastodon URL",
   "donate": "Donation URL",
   "avatar": "Avatar URL",

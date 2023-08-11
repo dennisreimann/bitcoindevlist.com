@@ -396,6 +396,7 @@ img {
       left: var(--space-l);
     }
 
+    & a.nostr,
     & a.mastodon {
       left: var(--space-xxl);
     }

@@ -16,11 +16,13 @@ mixin donatee(d, trunc = true)
           .tags
             each tag in d.tags
               a.tag(href=`/tag/${slugify(tag)}`)= tag
-      if d.twitter || d.github || d.gitlab
+      if d.twitter || d.nostr || d.mastodon || d.github || d.gitlab
         .social
           if d.twitter
             a.twitter(href=`https://twitter.com/${d.twitter}` target="_blank" rel="nofollow noopener"): +icon('twitter', 'Twitter')
-          if d.mastodon
+          if d.nostr
+            a.nostr(href=d.nostr target="_blank" rel="nofollow noopener"): +icon('nostr', 'Nostr')
+          else if d.mastodon
             a.mastodon(href=d.mastodon target="_blank" rel="nofollow noopener"): +icon('mastodon', 'Mastodon')
           if d.gitlab
             a.gitlab(href=`https://gitlab.com/${d.gitlab}` target="_blank" rel="nofollow noopener"): +icon('gitlab', 'GitLab')
