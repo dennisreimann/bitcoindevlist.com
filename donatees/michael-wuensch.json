@@ -1,0 +1,9 @@
+{
+  "name": "Michael Wünsch",
+  "github": "michaelWuensch",
+  "donate": "https://bitbanana.app/donate",
+  "avatar": "https://avatars.githubusercontent.com/u/15313630?v=4",
+  "description": "I work on [BitBanana](https://bitbanana.app) to simplify lightning node management on Android.",
+  "lightning": true,
+  "tags": ["BitBanana", "Lightning"]
+}
