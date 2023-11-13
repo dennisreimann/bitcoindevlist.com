@@ -2,10 +2,9 @@
   "name": "secondl1ght",
   "github": "secondl1ght",
   "twitter": "secondl1ght",
-  "mastodon": "https://bitcoinhackers.org/@secondl1ght",
   "donate": "https://classic.coinos.io/secondl1ght",
   "avatar": "https://secondl1ght.site/images/avatar.png",
-  "description": "I’m a Web Developer and contributing to [Amboss](https://amboss.space/) & [BTC Map](https://btcmap.org) + other open source bitcoin projects.",
+  "description": "I’m a Web Developer and creator of [Cipherchat](https://cipherchat.app) & co-creator [BTC Map](https://btcmap.org) + contributing to other open source bitcoin projects",
   "lightning": true,
   "tags": ["Bitcoin", "Lightning", "Liquid", "Web Apps"],
   "lnaddr": "secondl1ght@getalby.com"
