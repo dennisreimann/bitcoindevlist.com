@@ -1,0 +1,14 @@
+{
+  "name": "Alex Kaul",
+  "github": "alexk111",
+  "twitter": "alex_kaul",
+  "donate": "https://mynode.alexkaul.com/gh-donate",
+  "avatar": "https://avatars.githubusercontent.com/u/4675984",
+  "description": "Making [various Bitcoin-related projects](https://github.com/alexk111/). Integrating [BTCPay Server with online services and APIs](https://redbtc.org/).",
+  "lightning": true,
+  "tags": [
+    "BTCPay Server",
+    "Education",
+    "Red BTC"
+  ]
+}
