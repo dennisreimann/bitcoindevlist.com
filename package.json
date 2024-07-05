@@ -29,22 +29,22 @@
     "prettier": "prettier --write '**/*.{js,json,md}'"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.18",
+    "autoprefixer": "10.4.19",
     "browser-sync": "3.0.2",
     "csso-cli": "4.0.2",
-    "glob": "10.3.10",
+    "glob": "10.4.2",
     "jstransformer-markdown-it": "3.0.0",
-    "markdown-it": "14.0.0",
+    "markdown-it": "14.1.0",
     "node-file-rev": "1.1.4",
     "npm-run-all": "4.1.5",
     "onchange": "7.1.0",
-    "postcss": "8.4.35",
+    "postcss": "8.4.39",
     "postcss-calc": "9.0.1",
     "postcss-cli": "11.0.0",
-    "postcss-custom-media": "10.0.3",
-    "postcss-nesting": "12.0.4",
-    "prettier": "3.2.5",
-    "pug": "3.0.2"
+    "postcss-custom-media": "10.0.7",
+    "postcss-nesting": "12.1.5",
+    "prettier": "3.3.2",
+    "pug": "3.0.3"
   },
   "prettier": {
     "semi": false,
