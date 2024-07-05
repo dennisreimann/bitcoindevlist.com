@@ -4,7 +4,7 @@
   "twitter": "provoost",
   "nostr": "npub1s6z7hmmx2vud66f3utxd70qem8cwtggx0jgc7gh8pqwz2k8cltuqrdwk4c",
   "donate": "https://github.com/sponsors/Sjors",
-  "avatar": "https://mastodon.sprovoost.nl/system/accounts/avatars/109/887/537/079/015/035/original/e6c45ff623707857.png",
+  "avatar": "https://sprovoost.nl/me.jpg",
   "description": "I've been contributing to Bitcoin Core on a part-time basis since mid 2017. Most of my time is spent on reviewing and testing work by others, but I also created my own pull requests. Bitcoin ACKs provides a nice overview of my activity on the repo.",
   "tags": ["Bitcoin Core"],
   "lightning": true,
