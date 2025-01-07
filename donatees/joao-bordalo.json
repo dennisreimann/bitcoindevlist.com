@@ -1,0 +1,12 @@
+{
+  "name": "João Bordalo",
+  "github": "bordalix",
+  "twitter": "bordalix",
+  "nostr": "​​npub1vt803quxxq32fuwkp42g2lyaw2t9qupvnl3z0vyc3s9kudkyhn8qt28cxv",
+  "donate": "https://coinos.io/bordalix",
+  "avatar": "https://avatars.githubusercontent.com/u/9318412?v=4",
+  "description": "Working on [Ark](https://joaobordalo.com/labs/ark). Creator of [Helm wallet](https://helm-wallet.com/) and [Bitcoinstats](https://bitcoinstats.pages.dev/). Contributor to Bitcoin FOSS projects.",
+  "lightning": true,
+  "lnaddr": "bordalix@coinos.io",
+  "tags": ["Ark", "Helm"]
+}
