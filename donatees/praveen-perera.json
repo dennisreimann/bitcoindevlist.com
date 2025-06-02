@@ -1,0 +1,12 @@
+{
+  "name": "Praveen Perera",
+  "github": "praveenperera",
+  "twitter": "praveenperera",
+  "nostr": "npub1g0epzm4egfx6mda7pug9r4fwqpqzky6524zjev39tnjrp66g70eqdtz7dp",
+  "donate": "https://github.com/sponsors/praveenperera/",
+  "avatar": "https://avatars.githubusercontent.com/u/1775346",
+  "description": "Building [Cove](https://github.com/bitcoinppl/cove) the simple yet powerful Bitcoin mobile wallet.",
+  "lightning": true,
+  "lnaddr": "azurepanther1@primal.net",
+  "tags": ["Bitcoin", "Wallet", "Cove"]
+}
