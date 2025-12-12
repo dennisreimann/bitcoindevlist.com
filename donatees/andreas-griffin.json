@@ -1,0 +1,12 @@
+{
+  "name": "Andreas Griffin",
+  "github": "andreasgriffin",
+  "twitter": "BitcoinSafeOrg",
+  "nostr": "npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v",
+  "donate": "https://bitcoin-safe.org/en/donate/",
+  "avatar": "https://avatars.githubusercontent.com/u/116060138",
+  "description": "Building [Bitcoin Safe](https://bitcoin-safe.org/) - A desktop software for managing your cold storage wallets.",
+  "lightning": true,
+  "lnaddr": "BitcoinSafe@blitz-wallet.com",
+  "tags": ["Bitcoin", "Wallet", "Bitcoin Safe"]
+}
