@@ -14,11 +14,9 @@ jobs:
     steps:
       # Checkout and setup
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Setup
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+        uses: actions/setup-node@v7
       # Install and build
       - name: Install
         run: npm ci
@@ -27,7 +25,7 @@ jobs:
       # Deploy, limited to the master branch
       - name: Deploy
         if: success() && github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
