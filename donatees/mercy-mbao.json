@@ -1,0 +1,11 @@
+{
+  "name": "Mercy Mbao",
+  "github": "mercie-ux",
+  "twitter": "jubearsenic7",
+  "nostr": "npub1klxl4zkkr92vq3wpqync2alptdaf876eszwtlx5c5x4zug89lkdqknpe5j",
+  "avatar": "https://github.com/mercie-ux.png",
+  "description": "Software engineer working on [Bitcoin Core](https://github.com/bitcoin/bitcoin), improving functional test coverage and reviewing PRs.",
+  "lightning": true,
+  "lnaddr": "mercynjeri@blink.sv",
+  "tags": ["Bitcoin", "Tests"]
+}
